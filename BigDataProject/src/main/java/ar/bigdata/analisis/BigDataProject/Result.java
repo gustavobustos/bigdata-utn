@@ -2,6 +2,8 @@ package ar.bigdata.analisis.BigDataProject;
 
 import java.util.List;
 
+import ar.bigdata.analisis.model.TweetWithSentiment;
+
 public class Result {
 	List<TweetWithSentiment> sentiments;
 	String keyword;

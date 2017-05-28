@@ -14,6 +14,12 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 
+import org.apache.lucene.index.SegmentInfos.FindSegmentsFile;
+import org.bson.Document;
+
+import ar.bigdata.analisis.dao.TwitterDao;
+import ar.bigdata.analisis.dao.mongo.TwitterDaoMongo;
+import ar.bigdata.analisis.model.TweetWithSentiment;
 import twitter4j.GeoLocation;
 import twitter4j.Query;
 import twitter4j.QueryResult;
@@ -111,7 +117,7 @@ public class TestBG {
 		 * Auto-generated catch block e.printStackTrace(); }
 		 */
 		
-		/*StanfordCoreNLP pipeline = new StanfordCoreNLP(
+		StanfordCoreNLP pipeline = new StanfordCoreNLP(
 				"StanfordCoreNLP-spanish");
 		int mainSentiment = 0;
 		if (line != null && line.length() > 0) {
@@ -135,12 +141,12 @@ public class TestBG {
 
 			}
 		}
-		if (mainSentiment == 2 || mainSentiment > 4 || mainSentiment < 0) {
+		/*if (mainSentiment == 2 || mainSentiment > 4 || mainSentiment < 0) {
 			return null;
 		}*/
-		/*TweetWithSentiment tweetWithSentiment = new TweetWithSentiment(line,
-				toCss(2));*/
-		return null; //tweetWithSentiment;
+		TweetWithSentiment tweetWithSentiment = new TweetWithSentiment(line,
+				toCss(2), mainSentiment);
+		return tweetWithSentiment;
 		
 
 	}
@@ -242,9 +248,15 @@ public class TestBG {
 						"855886082260578304-NGiviQxyxnq6NdiQejY3RQNHhNs1JPF")
 				.setOAuthAccessTokenSecret(
 						"DbrDWIW2IHV3eV17raMwtrwlguj0vpJ6jaXa6Vz03P2xR");
+		
+		TwitterDao twitterDao = new TwitterDaoMongo();
 		Twitter twitter = new TwitterFactory(cb.build()).getInstance();
-		Query query = new Query("#macrigato");
-		int numberOfTweets = 5000;
+		
+		String mainHashtag =  "#macrigato";
+		
+		
+		Query query = new Query(mainHashtag);
+		int numberOfTweets = 100;
 		long lastID = Long.MAX_VALUE;
 		ArrayList<Status> tweets = new ArrayList<Status>();
 		while (tweets.size() < numberOfTweets) {
@@ -274,19 +286,83 @@ public class TestBG {
 		for (int i = 0; i < tweets.size(); i++) {
 			Status t = (Status) tweets.get(i);
 
+			System.out.println("Status: " + t);
+			
 			GeoLocation loc = t.getGeoLocation();
 
 			String user = t.getUser().getScreenName();
 			String msg = t.getText();
 			String time = "";
+
+			Document tweetPost = new Document();
+			
 			if (loc != null) {
-				Double lat = t.getGeoLocation().getLatitude();
-				Double lon = t.getGeoLocation().getLongitude();
-				System.out.println(i + " USER: " + user + " wrote: " + msg
-						+ "\n");
-			} else
-				System.out.println(i + " USER: " + user + " wrote: " + msg
-						+ "\n");
+				Double lat = loc.getLatitude();
+				Double lon = loc.getLongitude();
+				
+				TweetWithSentiment tweetWithSentiment = n.findSentiment(msg);
+				int sentiment =  tweetWithSentiment.getSentiment();
+				String sentimentStr = String.valueOf(sentiment);
+				
+				tweetPost.append("mainHashtag", mainHashtag);
+				tweetPost.append("sentiment", sentimentStr);
+				tweetPost.append("userName", user);
+				tweetPost.append("text", msg);
+				tweetPost.append("lattitude", lat);
+				tweetPost.append("longitude", lon);
+				tweetPost.append("tweetDate", t.getCreatedAt());
+				tweetPost.append("source", t.getSource());
+				tweetPost.append("userLocation", t.getUser().getLocation());
+				tweetPost.append("userTimezone", t.getUser().getTimeZone());
+				
+				
+				
+				//tweetPost.append("originalTweet",t);
+				
+				twitterDao.insertCollectionTweets("ggbustos", "test3" , tweetPost);
+				
+				System.out.println(i + " USER: " + user + " wrote: " + msg);
+				if(t.getPlace() != null) {
+					System.out.println("place: " + t.getPlace().getName());
+				} else {
+					System.out.println("place: ");
+				}
+				System.out.println("date: " + t.getCreatedAt());
+				System.out.println("source: " + t.getSource());
+				System.out.println("userLocation: " + t.getUser().getLocation() + " timeZone: " + t.getUser().getTimeZone());
+				System.out.println();
+			} else {
+				
+				TweetWithSentiment tweetWithSentiment = n.findSentiment(msg);
+				int sentiment =  tweetWithSentiment.getSentiment();
+				String sentimentStr = String.valueOf(sentiment);
+				
+				tweetPost.append("mainHashtag", mainHashtag);
+				tweetPost.append("sentiment", sentimentStr);
+				tweetPost.append("userName", user);
+				tweetPost.append("text", msg);
+				tweetPost.append("lattitude", null);
+				tweetPost.append("longitude", null);
+				tweetPost.append("tweetDate", t.getCreatedAt());
+				tweetPost.append("source", t.getSource());
+				tweetPost.append("userLocation", t.getUser().getLocation());
+				tweetPost.append("userTimezone", t.getUser().getTimeZone());
+				//tweetPost.append("originalTweet",t);
+
+				twitterDao.insertCollectionTweets("ggbustos", "test3" , tweetPost);
+				
+				System.out.println(i + " USER: " + user + " wrote: " + msg);
+				if(t.getPlace() != null) {
+					System.out.println("place: " + t.getPlace().getName());
+				} else {
+					System.out.println("place: ");
+				}
+				System.out.println("date: " + t.getCreatedAt());
+				System.out.println("source: " + t.getSource());
+				//System.out.println("quotedStatus: " + t.getQuotedStatus());
+				System.out.println("userLocation: " + t.getUser().getLocation() + " timeZone: " + t.getUser().getTimeZone());
+				System.out.println();
+			}
 		}
 
 	}
