@@ -249,7 +249,7 @@ public class TestBG {
 				.setOAuthAccessTokenSecret(
 						"DbrDWIW2IHV3eV17raMwtrwlguj0vpJ6jaXa6Vz03P2xR");
 		
-		TwitterDao twitterDao = new TwitterDaoMongo();
+		TwitterDao twitterDao = new TwitterDaoMongo("localhost", 27017);
 		Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 		
 		String mainHashtag =  "#macrigato";
@@ -319,7 +319,7 @@ public class TestBG {
 				
 				//tweetPost.append("originalTweet",t);
 				
-				twitterDao.insertCollectionTweets("ggbustos", "test3" , tweetPost);
+				twitterDao.insertTweet("ggbustos", "test3" , tweetPost);
 				
 				System.out.println(i + " USER: " + user + " wrote: " + msg);
 				if(t.getPlace() != null) {
@@ -349,7 +349,7 @@ public class TestBG {
 				tweetPost.append("userTimezone", t.getUser().getTimeZone());
 				//tweetPost.append("originalTweet",t);
 
-				twitterDao.insertCollectionTweets("ggbustos", "test3" , tweetPost);
+				twitterDao.insertTweet("ggbustos", "test3" , tweetPost);
 				
 				System.out.println(i + " USER: " + user + " wrote: " + msg);
 				if(t.getPlace() != null) {

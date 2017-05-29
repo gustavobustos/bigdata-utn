@@ -1,6 +1,11 @@
 package ar.bigdata.analisis.dao.mongo;
 
+import java.util.List;
+
 import org.bson.Document;
+import org.bson.conversions.Bson;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import ar.bigdata.analisis.dao.TwitterDao;
 
@@ -8,13 +13,16 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.result.UpdateResult;
 
 public class TwitterDaoMongo implements TwitterDao {
 	
+	private final Logger log = LoggerFactory.getLogger(TwitterDaoMongo.class);
+	
 	private MongoClient mongoClient;
 	
-	public TwitterDaoMongo () {
-		this.mongoClient = new MongoClient("localhost", 27017);
+	public TwitterDaoMongo (String host, int port) {
+		this.mongoClient = new MongoClient(host, port);
 	}
 	
 	public void findAll(String dbName, String dbCollectionName) {
@@ -25,7 +33,7 @@ public class TwitterDaoMongo implements TwitterDao {
 		
 		try {
 			while (cursor.hasNext()) {
-				System.out.println(cursor.next().toJson());
+				log.info(cursor.next().toJson());
 			}
 		} finally {
 			cursor.close();
@@ -41,14 +49,25 @@ public class TwitterDaoMongo implements TwitterDao {
 	}
 
 	public static void main(String[] args) {
-		TwitterDaoMongo test = new TwitterDaoMongo();
+		TwitterDaoMongo test = new TwitterDaoMongo("localhost", 27017);
 
 		//test.getConnection();
 	}
 	
-	public void insertCollectionTweets(String dbName, String collectionName, Document document) {
+	public void insertTweet(String dbName, String collectionName, Document document) {
 		MongoCollection<Document> collection = getDBCollection(dbName, collectionName);
 		collection.insertOne(document);
+	}
+	
+	public void insertManyTweets(String dbName, String collectionName, List<Document> documents) {
+		MongoCollection<Document> collection = getDBCollection(dbName, collectionName);
+		collection.insertMany(documents);
+	}
+	
+	public UpdateResult updateCollectionTweets(String dbName, String collectionName, Bson bsonFilter, Document document) {
+		MongoCollection<Document> collection = getDBCollection(dbName, collectionName);
+		UpdateResult result = collection.updateOne(bsonFilter, document);
+		return result;
 	}
 
 }

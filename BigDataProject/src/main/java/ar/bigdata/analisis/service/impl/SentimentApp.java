@@ -14,69 +14,83 @@ import ar.bigdata.analisis.dao.mongo.TwitterDaoMongo;
 import ar.bigdata.analisis.model.TweetWithSentiment;
 import ar.bigdata.analisis.service.SentimentAnalysisService;
 import ar.bigdata.analisis.service.TwitterService;
+import ar.bigdata.analisis.util.StringUtil;
 
-public class MainApp {
+public class SentimentApp {
 
-	private final Logger log = LoggerFactory.getLogger(MainApp.class);
+	private final Logger log = LoggerFactory.getLogger(SentimentApp.class);
 	
+	private TwitterDao twitterDao;
 	private TwitterService twitterService;
 	private SentimentAnalysisService sentimentAnalysisService;
-	private TwitterDao twitterDao;
 	
 	public static String HASH = "#";
-	public static String MONGO_DB = "test_db";
-	public static String MONGO_TWITTER_COLLECTION = "twitterpoststest";
+	public static String MONGO_DB = "bigdata_db";
+	public static String MONGO_HOST = "localhost";
+	public static String MONGO_TWITTER_COLLECTION = "twitterposts";
+
+	public static int MONGO_PORT = 27017;
+	public static int NUMBER_OF_TWEETS = 10;
 	
-	public MainApp () {
-		twitterService = new TwitterServiceImpl(10);
+	
+	public static String[] TAGS = {"MacriGato"};/*, "FelizCumplePresidente", "TodosPresos",
+			"LiberenAMilagro", "Argentina",
+			"GobieronDeCorruptosDelicuentes", "DictaduraJudicial", "Venezuela",
+			"Cambiemos", "personanograta", "cgt", "buenosaires" };*/
+		
+	public SentimentApp () {
+		twitterService = new TwitterServiceImpl(NUMBER_OF_TWEETS);
 		sentimentAnalysisService = new SentimentAnalysisServiceImpl();
-		twitterDao = new TwitterDaoMongo();
+		twitterDao = new TwitterDaoMongo(MONGO_HOST, MONGO_PORT);
 	}
 	
 	public static void main(String[] args) {
 		
-		MainApp mainApp = new MainApp();
-		mainApp.process();
+		SentimentApp sentimentApp = new SentimentApp();
+		sentimentApp.process();
 	}
 	
 	public void process() {
 		
 		log.info("Starting... ");
-		String tag = "macrigato";
-		String hashTag = HASH + tag;
 		
-		List<Status> tweets = twitterService.fetchTweets(hashTag);
-		Document collectionDocument = new Document();
-		List<Document> tweetsList = new ArrayList<Document>();
-		
-		for (Status status : tweets) {
+		for (String tag : TAGS) {
 			
-			log.info("Status: " + status);
+			String hashTag = HASH + tag;
 			
-			String msg = status.getText();
-
-			TweetWithSentiment tweetWithSentiment = sentimentAnalysisService.findSentiment(msg);
+			log.info("Procesing hastag: " + hashTag);
 			
-			Document tweetPost = buildPostDocument(tweetWithSentiment.getSentiment(), status);
+			List<Document> tweetsList = new ArrayList<Document>();
+			List<Status> tweets = twitterService.fetchTweets(hashTag);
 			
-			tweetsList.add(tweetPost);
-
+			for (Status status : tweets) {
+				
+				if(log.isDebugEnabled()) {
+					log.debug("Status: " + status);
+				}
+				
+				String text = status.getText();
+				String msg = StringUtil.removeEmojisAndOtherChars(text);
+	
+				TweetWithSentiment tweetWithSentiment = sentimentAnalysisService.findSentiment(msg);
+				
+				Document tweetPost = buildPostDocument(tweetWithSentiment.getSentiment(), hashTag, msg, status);
+				
+				tweetsList.add(tweetPost);
+	
+			}
+			
+			twitterDao.insertManyTweets(MONGO_DB, MONGO_TWITTER_COLLECTION , tweetsList);
 		}
-
-		collectionDocument.append(hashTag, tweetsList);
-		
-		twitterDao.insertCollectionTweets(MONGO_DB, MONGO_TWITTER_COLLECTION , collectionDocument);
 		
 		log.info("Ending... ");
 	}
 	
-	public Document buildPostDocument (int sentiment, Status status) {
+	public Document buildPostDocument (int sentiment, String hashTag, String msg, Status status) {
 		Document tweetPost = new Document();
 		GeoLocation loc = status.getGeoLocation();
 
 		String user = status.getUser().getScreenName();
-		String msg = status.getText();
-		
 		String sentimentStr = String.valueOf(sentiment);
 		
 		String latitude = "";
@@ -87,6 +101,7 @@ public class MainApp {
 			longitude = String.valueOf(loc.getLongitude());
 		} 
 		
+		tweetPost.append("hashTag", hashTag);
 		tweetPost.append("sentiment", sentimentStr);
 		tweetPost.append("userName", user);
 		tweetPost.append("text", msg);
