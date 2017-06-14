@@ -1,4 +1,3 @@
-
 2	poblacion
 
 2	obra
@@ -6027,9 +6026,9 @@
 
 2	lo
 
-1	arbolitodenavidad
+1	arbolito
 
-0	dignidadesaparecida
+4	navidad
 
 2	son
 

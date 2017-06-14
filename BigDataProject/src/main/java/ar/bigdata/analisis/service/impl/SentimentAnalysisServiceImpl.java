@@ -30,6 +30,7 @@ public class SentimentAnalysisServiceImpl implements SentimentAnalysisService {
 		if (line != null && line.length() > 0) {
 			
 			int longest = 0;
+			//line = line.toLowerCase();
 			Annotation annotation = stanforNLP.process(line);
 			
 			for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
@@ -56,6 +57,12 @@ public class SentimentAnalysisServiceImpl implements SentimentAnalysisService {
 		TweetWithSentiment tweetWithSentiment = new TweetWithSentiment(line, toCss(2), mainSentiment);
 		
 		return tweetWithSentiment;
+	}
+	
+	public static void main(String[] args) {
+		
+		SentimentAnalysisService sentimentAnalysisService = new SentimentAnalysisServiceImpl();
+		sentimentAnalysisService.findSentiment("Macri es una persona mala");
 	}
 	
 	private String toCss(int sentiment) {

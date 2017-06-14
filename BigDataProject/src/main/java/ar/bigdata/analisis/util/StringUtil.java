@@ -16,7 +16,7 @@ public class StringUtil {
 
 	public static String removeEmojisAndOtherChars (String text) {
 		
-		log.info("Before: " + text);
+		//log.info("Before: " + text);
 		
 		String utf8tweet = Normalizer.normalize(text, Normalizer.Form.NFD);
 		utf8tweet = utf8tweet.replaceAll("\\p{M}", "");
@@ -34,7 +34,7 @@ public class StringUtil {
 
         utf8tweet = unicodeOutlierMatcher.replaceAll("");
         
-        log.info("After: " + utf8tweet);
+        //log.info("After: " + utf8tweet);
         
         return utf8tweet;
 	}

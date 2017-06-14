@@ -1,10 +1,12 @@
-2	Pasaron de tener un Jumbo a usar un carrefour express.
+2	pasaron de tener un jumbo a usar un carrefour express.
 
-2	Macri los niños no coman es un crimen.
+1	macri es un hdp.
+
+2	macri los niños no comen es un crimen.
 
 0	juicio politico al hdp.
 
-1	Macri esta conectando coimas con los de arriba.
+1	macri esta conectando coimas con los de arriba.
 
 1	no entiende? se hace el pelotudo.
 
@@ -16,24 +18,6482 @@
 
 0	hdmp.
 
-2	CRISTINA CON CALZAS EN EL PARTENÓN.
+2	cristina con calzas en el partenon.
 
-1	Las mentiras de Macri se convierten en la pesadilla de un pueblo. 
+1	las mentiras de Macri se convierten en la pesadilla de un pueblo. 
 
-1	Navarro te amo pero la vena me revienta Macri gato HDP.
+1	navarro te amo pero la vena me revienta macri gato hdp.
 
-1	MACRI BAJA LOS PRECIOS LA CDTH ME ESTOY CAGANDO DE HAMBRE.
+1	macri baja los precios la cdth me estoy cagando de hambre.
 
-2	Re da  Cristina con calzas en el Partenón, Cadete. 
+2	re da  cristina con calzas en el partenon, cadete. 
 
-1	A Mauricio se le van hasta los refugiados!.
+1	a mauricio se le van hasta los refugiados!.
 
-1	El cadete me mata!!!! Jajajajajajaj un poco de humor para calmar el odio a Macri gato. Ahora hablando en serio, hoy fue el último superclásico que vamos a ver gratis. Un garrón. 
+1	el cadete me mata!!!! jajajajajajaj un poco de humor para calmar el odio a macri gato. ahora hablando en serio, hoy fue el ultimo superclasico que vamos a ver gratis. un garron. 
 
-1	MACRI LA CONCHA DE TU MADRE!!. 
+1	macri la concha de tu madre!!. 
 
-1	Macri Gato Matas de hambre al puedo , te va a volver Karma, basura.
+1	macri gato matas de hambre al pueblo , te va a volver karma, basura.
 
-1	angustia de esa señora me parte el alma y me hace dar mas asco de las politicas de  Macri Gato.
+1	angustia de esa señora me parte el alma y me hace dar mas asco de las politicas de  macri gato.
 
-1	Macrigato dos un HDP.
+1	macrigato dos un hdp.
+
+2	poblacion
+
+2	obra
+
+3	dormir
+
+3	dar
+
+3	realizar
+
+2	haber
+
+3	amor
+
+2	aparecer
+
+2	seguir
+
+2	especie
+
+2	dejar
+
+2	nombre
+
+1	solo
+
+3	corazon
+
+3	lograr
+
+3	entender
+
+2	acercar
+
+2	grande
+
+2	ojo
+
+3	bueno
+
+3	trabajar
+
+3	permitir
+
+3	junto
+
+2	hablar
+
+2	hacer
+
+2	tiempo
+
+3	nuevo
+
+2	mirada
+
+2	entrar
+
+2	cuerpo
+
+2	tipo
+
+2	cosa
+
+2	volver
+
+2	propio
+
+3	mas
+
+2	llamar
+
+3	cancion
+
+3	alcanzar
+
+3	pensar
+
+3	agua
+
+3	aire
+
+3	jugar
+
+2	voz
+
+3	poder
+
+2	sentar
+
+3	mar
+
+2	mirar
+
+3	rio
+
+1	dolor
+
+2	caso
+
+2	mantener
+
+2	historia
+
+2	region
+
+2	abrir
+
+2	ultimo
+
+3	hermano
+
+2	lugar
+
+2	junto
+
+2	presentar
+
+2	producir
+
+3	estar
+
+2	venir
+
+2	palabra
+
+3	habitante
+
+2	fin
+
+2	solo
+
+3	alma
+
+2	rey
+
+2	mundo
+
+2	ser
+
+2	numero
+
+2	considerar
+
+3	querer
+
+2	recordar
+
+3	amar
+
+3	creer
+
+2	pedir
+
+2	caer
+
+2	siguiente
+
+2	trabajo
+
+2	nacional
+
+2	convertir
+
+3	tener
+
+2	lado
+
+2	punto
+
+1	esperar
+
+3	amigo
+
+2	manera
+
+2	total
+
+2	poder
+
+2	ubicar
+
+3	crear
+
+2	calle
+
+2	terminar
+
+2	forma
+
+2	sistema
+
+2	ano
+
+3	existir
+
+3	hijo
+
+2	partir
+
+3	comenzar
+
+3	luz
+
+2	buscar
+
+2	paso
+
+3	vida
+
+2	pais
+
+3	encontrar
+
+2	decidir
+
+2	parte
+
+3	noche
+
+2	llevar
+
+2	poner
+
+2	hora
+
+2	incluir
+
+2	decir
+
+2	escuchar
+
+1	perder
+
+3	grupo
+
+3	libro
+
+2	fuerza
+
+3	familia
+
+2	llegar
+
+3	cielo
+
+2	zona
+
+3	verdad
+
+2	persona
+
+2	norte
+
+2	hombre
+
+2	cuenta
+
+2	puerta
+
+2	dirigir
+
+2	momento
+
+1	muerte
+
+2	municipio
+
+2	tratar
+
+2	quedar
+
+2	unir
+
+2	cabeza
+
+2	tierra
+
+2	mismo
+
+2	centro
+
+2	aun
+
+3	casa
+
+2	gente
+
+3	principal
+
+2	tan
+
+3	mejor
+
+2	preguntar
+
+3	saber
+
+2	formar
+
+2	unico
+
+2	vez
+
+3	camino
+
+2	recuerdo
+
+3	mujer
+
+3	conocer
+
+2	parecer
+
+2	olvidar
+
+2	metro
+
+2	importante
+
+3	universidad
+
+2	siglo
+
+2	color
+
+2	pasar
+
+3	correr
+
+2	mano
+
+2	contar
+
+2	deber
+
+3	salir
+
+3	vivir
+
+2	estado
+
+2	ver
+
+2	pequeno
+
+3	padre
+
+2	gobierno
+
+2	condado
+
+2	utilizar
+
+3	madre
+
+3	sentir
+
+2	tanto
+
+2	cambiar
+
+2	final
+
+2	escribir
+
+2	dia
+
+2	sueno
+
+2	usar
+
+2	empezar
+
+2	tomar
+
+2	pesar
+
+3	equipo
+
+2	ciudad
+
+3	juego
+
+3	provincia
+
+2	gran
+
+2	general
+
+1	morir
+
+3	nacer
+
+3	nino
+
+2	mayor
+
+3	recibir
+
+2	serie
+
+3	silencio
+
+2	realidad
+
+2	real
+
+3	proyecto
+
+3	estudio
+
+2	tocar
+
+2	conseguir
+
+2	pelicula
+
+2	mes
+
+2	sol
+
+3	diferente
+
+3	ganar
+
+3	isla
+
+2	censo
+
+3	intentar
+
+3	mostrar
+
+2	viejo
+
+3	humano
+
+3	caminar
+
+2	pie
+
+2	orden
+
+3	gustar
+
+1	llorar
+
+2	levantar
+
+2	cara
+
+2	rostro
+
+2	senor
+
+3	musica
+
+2	raza
+
+3	idea
+
+3	viento
+
+1	iglesia
+
+2	traves
+
+1	problema
+
+2	album
+
+3	desear
+
+2	boca
+
+3	mente
+
+2	imagen
+
+1	miedo
+
+2	epoca
+
+2	acabar
+
+3	piel
+
+2	carrera
+
+3	construir
+
+2	obtener
+
+2	brazo
+
+3	fuerte
+
+2	demografia
+
+3	club
+
+2	publicar
+
+2	resto
+
+2	observar
+
+2	situar
+
+2	temporada
+
+2	lanzar
+
+2	cerrar
+
+3	servicio
+
+3	beso
+
+2	presidente
+
+2	sentido
+
+3	sonrisa
+
+2	necesitar
+
+3	razon
+
+2	miembro
+
+3	movimiento
+
+2	regresar
+
+3	relacion
+
+2	frente
+
+3	escuela
+
+2	papel
+
+2	linea
+
+3	destacar
+
+2	ejemplo
+
+3	descubrir
+
+2	servir
+
+3	arte
+
+2	sangre
+
+3	estrella
+
+2	edad
+
+2	derecho
+
+2	labio
+
+2	dios
+
+2	pertenecer
+
+3	continuar
+
+1	matar
+
+3	participar
+
+3	posible
+
+3	pueblo
+
+2	medio
+
+3	despertar
+
+2	espacio
+
+2	distrito
+
+2	minuto
+
+3	cantar
+
+2	igual
+
+2	departamento
+
+2	sacar
+
+2	nada
+
+3	cambio
+
+3	gracia
+
+3	blanco
+
+3	personaje
+
+2	semana
+
+2	ocupar
+
+2	bajo
+
+3	antiguo
+
+2	localidad
+
+2	lleno
+
+3	ser
+
+2	ocurrir
+
+2	principio
+
+2	negro
+
+2	oscuro
+
+2	ejercito
+
+2	densidad
+
+2	frente
+
+3	hermoso
+
+3	feliz
+
+2	poblacional
+
+2	situacion
+
+2	detener
+
+3	ayudar
+
+3	leer
+
+2	anterior
+
+2	largo
+
+3	acompanar
+
+1	abandonar
+
+2	distinto
+
+2	social
+
+2	titulo
+
+2	origen
+
+2	desarrollar
+
+2	actual
+
+3	bello
+
+2	mayoria
+
+2	dedicar
+
+2	area
+
+2	chico
+
+2	importar
+
+2	clase
+
+2	politico
+
+2	internacional
+
+3	especial
+
+2	sentimiento
+
+2	alto
+
+2	nivel
+
+3	arbol
+
+2	disco
+
+3	pensamiento
+
+3	cama
+
+2	extrano
+
+2	reconocer
+
+1	sufrir
+
+2	superficie
+
+3	actividad
+
+2	programa
+
+2	edificio
+
+2	responder
+
+2	comer
+
+2	representar
+
+3	iniciar
+
+2	establecer
+
+2	estacion
+
+2	hecho
+
+2	mundial
+
+3	suelo
+
+2	oficina
+
+3	ventana
+
+2	empresa
+
+3	exito
+
+3	poseer
+
+2	ley
+
+3	compania
+
+2	suceder
+
+2	instante
+
+2	cubrir
+
+3	sociedad
+
+3	reir
+
+2	traer
+
+2	version
+
+2	lengua
+
+2	uso
+
+2	canton
+
+2	entregar
+
+3	comprender
+
+3	vivo
+
+2	territorio
+
+3	luna
+
+2	vuelta
+
+3	ofrecer
+
+2	destino
+
+2	hoja
+
+2	sombra
+
+2	diverso
+
+2	base
+
+2	publico
+
+2	mover
+
+3	libre
+
+1	batalla
+
+2	fondo
+
+3	acariciar
+
+2	millon
+
+3	fuego
+
+3	flor
+
+3	don
+
+2	resultar
+
+3	planta
+
+2	acuerdo
+
+2	nombrar
+
+2	joven
+
+3	crecer
+
+3	premio
+
+3	componer
+
+3	viaje
+
+2	modo
+
+3	sonido
+
+3	companero
+
+2	suponer
+
+3	desarrollo
+
+2	menor
+
+2	construccion
+
+2	soler
+
+3	animal
+
+2	popular
+
+3	sonar
+
+2	fundar
+
+3	volar
+
+3	rojo
+
+2	cargo
+
+2	contener
+
+2	futbol
+
+2	joven
+
+2	valor
+
+2	medio
+
+2	proceso
+
+2	gritar
+
+2	estilo
+
+2	presencia
+
+2	comun
+
+2	ocasion
+
+2	letra
+
+3	lluvia
+
+2	division
+
+2	alla
+
+2	estudiar
+
+2	termino
+
+2	reino
+
+1	triste
+
+2	lagrima
+
+3	produccion
+
+2	direccion
+
+2	romper
+
+2	republica
+
+2	respuesta
+
+3	accion
+
+2	necesario
+
+2	natural
+
+2	subir
+
+2	autor
+
+2	disponer
+
+1	soledad
+
+1	malo
+
+2	oficial
+
+2	television
+
+2	cabo
+
+2	todavia
+
+2	geografia
+
+2	desaparecer
+
+2	separar
+
+2	economico
+
+2	significar
+
+3	favor
+
+2	jamas
+
+2	director
+
+2	corresponder
+
+2	habitacion
+
+2	genero
+
+3	comunidad
+
+2	cierto
+
+2	puerto
+
+3	sonreir
+
+2	deseo
+
+3	aceptar
+
+2	posicion
+
+2	decada
+
+2	verde
+
+2	dedo
+
+2	alejar
+
+2	esposo
+
+2	pared
+
+3	besar
+
+2	basar
+
+2	barrio
+
+2	efecto
+
+2	escapar
+
+2	cruzar
+
+3	oir
+
+3	parque
+
+2	fiesta
+
+3	imaginar
+
+2	negro
+
+2	perro
+
+3	permanecer
+
+2	evitar
+
+2	bajar
+
+3	casar
+
+3	elegir
+
+2	recorrer
+
+3	cumplir
+
+2	fuente
+
+2	segundo
+
+2	memoria
+
+2	esconder
+
+3	cultura
+
+2	resultado
+
+2	nuevamente
+
+2	pecho
+
+2	profesor
+
+2	formular
+
+2	capital
+
+3	existencia
+
+2	episodio
+
+3	verdadero
+
+2	figura
+
+2	denominar
+
+2	jefe
+
+1	pena
+
+3	comprar
+
+2	carta
+
+2	notar
+
+2	mandar
+
+2	atras
+
+2	marcar
+
+1	grito
+
+2	demasiado
+
+2	provocar
+
+2	eleccion
+
+2	acto
+
+2	modelo
+
+3	jugador
+
+3	libertad
+
+3	celebrar
+
+2	espalda
+
+2	sitio
+
+3	escritor
+
+2	siquiera
+
+3	explicar
+
+2	cantidad
+
+3	union
+
+2	lagrimar
+
+2	apenas
+
+3	aprender
+
+1	arma
+
+3	hallar
+
+2	distancia
+
+3	simple
+
+3	teatro
+
+3	par
+
+3	andar
+
+2	futuro
+
+3	eterno
+
+2	condicion
+
+1	militar
+
+3	cuento
+
+2	angel
+
+1	golpe
+
+2	objeto
+
+2	organizacion
+
+3	abuelo
+
+3	radio
+
+2	dificil
+
+3	viajar
+
+3	capaz
+
+3	montana
+
+3	esperanza
+
+2	rodear
+
+2	preparar
+
+2	pierna
+
+2	canal
+
+2	numeroso
+
+2	vestir
+
+2	elemento
+
+2	control
+
+2	calor
+
+2	oeste
+
+2	funcion
+
+2	atencion
+
+3	compartir
+
+2	blanco
+
+2	necesidad
+
+3	musical
+
+2	piso
+
+3	seguro
+
+2	ingreso
+
+2	vender
+
+2	simplemente
+
+1	politico
+
+2	completo
+
+2	interes
+
+2	causar
+
+3	verano
+
+3	ala
+
+2	mitad
+
+3	ciencia
+
+3	hogar
+
+2	faltar
+
+2	rapido
+
+2	partido
+
+2	enorme
+
+3	nube
+
+2	falta
+
+2	guardar
+
+2	mesa
+
+2	extender
+
+2	oro
+
+2	juntar
+
+2	similar
+
+2	enviar
+
+2	historico
+
+3	interpretar
+
+2	piedra
+
+2	frio
+
+3	museo
+
+3	original
+
+2	civil
+
+2	luchar
+
+3	campo
+
+2	medida
+
+2	plan
+
+2	apoyar
+
+2	informacion
+
+2	producto
+
+2	unidad
+
+2	cercano
+
+3	energia
+
+3	alegria
+
+3	ayuda
+
+2	llenar
+
+2	colocar
+
+3	avanzar
+
+3	encuentro
+
+2	especialmente
+
+2	escena
+
+2	capacidad
+
+3	profundo
+
+2	investigacion
+
+2	largo
+
+3	jardin
+
+2	gana
+
+2	ropa
+
+3	cine
+
+2	oscuridad
+
+2	realmente
+
+2	retirar
+
+2	red
+
+2	parar
+
+2	tema
+
+2	describir
+
+2	enfrentar
+
+2	parir
+
+3	suerte
+
+2	edicion
+
+1	ataque
+
+3	abrazar
+
+3	consejo
+
+3	cafe
+
+2	muchacho
+
+2	cuarto
+
+2	revista
+
+1	tristeza
+
+2	carne
+
+2	comuna
+
+3	enamorar
+
+3	espejo
+
+2	conjunto
+
+2	caracteristica
+
+2	corto
+
+3	claro
+
+3	pacifico
+
+2	indicar
+
+3	felicidad
+
+2	sensacion
+
+3	oportunidad
+
+1	temer
+
+3	campeonato
+
+2	motivo
+
+2	rato
+
+2	derrotar
+
+2	peso
+
+3	sencillo
+
+2	duro
+
+2	olor
+
+2	duda
+
+2	puesto
+
+3	actuar
+
+2	principalmente
+
+2	referir
+
+2	detras
+
+1	destruir
+
+2	prueba
+
+1	tenia
+
+3	perfecto
+
+2	pelo
+
+3	pasion
+
+2	fecha
+
+1	cansar
+
+3	beber
+
+2	lucha
+
+3	poeta
+
+3	novela
+
+3	dato
+
+2	limitar
+
+3	pez
+
+2	repetir
+
+3	creacion
+
+3	texto
+
+3	naturaleza
+
+2	torre
+
+2	constituir
+
+3	dulce
+
+1	obligar
+
+2	mil
+
+1	pagar
+
+2	estructura
+
+3	copa
+
+3	risa
+
+2	organizar
+
+2	municipal
+
+1	frio
+
+1	negar
+
+2	diferencia
+
+2	intento
+
+2	via
+
+2	policia
+
+2	demostrar
+
+3	formacion
+
+3	cultural
+
+3	plata
+
+2	periodo
+
+3	surgir
+
+2	pieza
+
+3	suave
+
+1	guerra
+
+2	vecino
+
+3	vista
+
+3	aspecto
+
+2	meter
+
+2	amo
+
+2	cortar
+
+2	distribucion
+
+2	pregunta
+
+3	paz
+
+3	fruto
+
+3	belleza
+
+3	poema
+
+2	suficiente
+
+2	famoso
+
+2	articulo
+
+2	loco
+
+2	villa
+
+2	perteneciente
+
+2	conservar
+
+3	dia
+
+2	importancia
+
+3	seguridad
+
+3	educacion
+
+2	pasado
+
+2	sector
+
+2	determinar
+
+2	declarar
+
+2	posibilidad
+
+3	dinero
+
+3	experiencia
+
+3	disfrutar
+
+2	caracter
+
+2	velocidad
+
+2	operacion
+
+2	decision
+
+2	preocupar
+
+3	debutar
+
+3	contestar
+
+2	mencionar
+
+2	sonar
+
+1	quitar
+
+2	altura
+
+1	huir
+
+3	bosque
+
+2	solo
+
+2	imperio
+
+2	ordenar
+
+2	residir
+
+2	seleccion
+
+2	facil
+
+2	ministro
+
+2	dueno
+
+2	tropa
+
+3	propiedad
+
+2	ruta
+
+3	defensa
+
+2	actor
+
+3	reunir
+
+2	despedir
+
+3	trasladar
+
+2	bailar
+
+1	enfermedad
+
+2	entrada
+
+3	firme
+
+3	anunciar
+
+2	busca
+
+2	causa
+
+1	atacar
+
+1	muerto
+
+3	pareja
+
+2	comercial
+
+3	visitar
+
+2	tirar
+
+3	relacionar
+
+3	cabello
+
+2	artista
+
+3	espiritu
+
+3	invitar
+
+2	local
+
+2	firmar
+
+3	teoria
+
+2	invierno
+
+2	objetivo
+
+3	puente
+
+2	lentamente
+
+2	imposible
+
+2	sostener
+
+2	mercado
+
+3	transformar
+
+1	cadena
+
+3	personal
+
+2	serio
+
+3	conocimiento
+
+3	planeta
+
+2	solamente
+
+3	comunicacion
+
+2	etapa
+
+2	integrar
+
+2	marca
+
+2	categoria
+
+2	longitud
+
+1	peor
+
+2	campana
+
+2	moderno
+
+3	colegio
+
+3	vuelo
+
+2	grabar
+
+1	echar
+
+2	asomar
+
+2	instituto
+
+3	girar
+
+3	novio
+
+3	apoyo
+
+3	tio
+
+3	preferir
+
+2	tamano
+
+2	emplear
+
+2	periodo
+
+2	nave
+
+2	material
+
+3	esfuerzo
+
+3	amplio
+
+2	adquirir
+
+2	tren
+
+1	error
+
+2	secreto
+
+3	universo
+
+1	desconocer
+
+2	federacion
+
+3	cuello
+
+3	pintura
+
+3	elevar
+
+3	ilusion
+
+2	grado
+
+3	palacio
+
+3	camara
+
+1	ruido
+
+3	listo
+
+2	economia
+
+2	actualidad
+
+3	proponer
+
+3	poesia
+
+2	kilometro
+
+2	callar
+
+3	ensenar
+
+2	publico
+
+2	sede
+
+2	aumentar
+
+3	sorprender
+
+3	cuidar
+
+2	hospital
+
+1	ausencia
+
+1	doler
+
+2	posterior
+
+1	llanto
+
+2	capita
+
+3	respirar
+
+2	marchar
+
+2	noticia
+
+2	frase
+
+2	proximo
+
+2	aproximadamente
+
+2	costar
+
+2	inicio
+
+2	izquierdo
+
+2	autoridad
+
+3	vino
+
+2	recuperar
+
+2	protagonizar
+
+2	comienzo
+
+2	influencia
+
+2	rapidamente
+
+2	habitar
+
+3	deportivo
+
+3	nacion
+
+3	avion
+
+3	tranquilo
+
+2	expresion
+
+2	raro
+
+2	debajo
+
+2	reducir
+
+3	diseno
+
+3	festival
+
+3	azul
+
+2	tradicional
+
+2	adelante
+
+2	cargar
+
+3	directo
+
+3	proteger
+
+1	pobre
+
+3	placer
+
+2	reloj
+
+3	caricia
+
+2	motor
+
+2	doctor
+
+3	presente
+
+3	completamente
+
+2	pagina
+
+3	playa
+
+1	robar
+
+2	senalar
+
+2	totalmente
+
+2	vacio
+
+3	incorporar
+
+3	matrimonio
+
+2	capitan
+
+3	generar
+
+3	salvar
+
+3	senal
+
+3	conducir
+
+3	lago
+
+3	caballo
+
+1	golpear
+
+2	asi
+
+2	metal
+
+2	lider
+
+2	lejano
+
+3	abrazo
+
+1	dano
+
+2	recoger
+
+2	consecuencia
+
+3	encender
+
+2	costumbre
+
+3	bano
+
+2	liga
+
+2	religioso
+
+3	gota
+
+2	dudar
+
+2	caja
+
+3	definir
+
+2	atravesar
+
+3	expresar
+
+2	medio
+
+3	ave
+
+1	soldado
+
+2	templo
+
+3	calidad
+
+2	envolver
+
+3	sexo
+
+2	clima
+
+3	idioma
+
+2	torneo
+
+2	institucion
+
+3	gol
+
+2	tradicion
+
+2	emitir
+
+3	independiente
+
+3	puro
+
+3	sabor
+
+2	lento
+
+3	afirmar
+
+2	asunto
+
+3	maestro
+
+2	asociacion
+
+3	vencer
+
+3	revolucion
+
+2	consistir
+
+2	algo
+
+2	final
+
+3	descansar
+
+3	funcionar
+
+3	gusto
+
+2	concepto
+
+1	temor
+
+2	conciencia
+
+2	introducir
+
+2	hombro
+
+2	rojo
+
+1	fallecer
+
+3	mama
+
+2	oido
+
+2	geografico
+
+2	erar
+
+2	asegurar
+
+3	contemplar
+
+2	esquina
+
+2	cuanto
+
+3	gato
+
+2	encargar
+
+2	estadio
+
+2	curso
+
+2	recien
+
+3	animar
+
+3	foto
+
+2	terreno
+
+2	locura
+
+2	corte
+
+3	salud
+
+2	auto
+
+2	temperatura
+
+2	intencion
+
+2	dividir
+
+2	mentira
+
+2	desnudo
+
+2	depender
+
+2	cristal
+
+2	marcha
+
+2	tarea
+
+3	superar
+
+2	critico
+
+2	frontera
+
+2	evento
+
+2	apagar
+
+2	telefono
+
+2	haz
+
+2	profesional
+
+3	clasico
+
+2	tono
+
+3	primero
+
+2	controlar
+
+2	derecha
+
+3	cocina
+
+2	disputar
+
+2	raiz
+
+2	seco
+
+3	mediar
+
+2	designar
+
+3	gesto
+
+3	detalle
+
+1	olvido
+
+2	confundir
+
+2	diario
+
+2	punta
+
+3	ambiente
+
+3	comida
+
+2	administracion
+
+2	recurso
+
+3	contacto
+
+3	literatura
+
+3	guitarra
+
+2	mensaje
+
+2	completar
+
+2	acceso
+
+2	gris
+
+3	iluminar
+
+1	soportar
+
+2	igual
+
+2	metodo
+
+1	herir
+
+2	aragon
+
+3	claro
+
+3	finalizar
+
+2	rincon
+
+3	concierto
+
+3	defender
+
+1	odiar
+
+2	hasta
+
+2	masa
+
+3	fundacion
+
+2	limite
+
+1	privar
+
+2	federal
+
+2	rayo
+
+2	congreso
+
+2	pretender
+
+3	saltar
+
+2	coleoptero
+
+2	instalar
+
+2	hueso
+
+3	pan
+
+2	entero
+
+3	valer
+
+2	generalmente
+
+2	inmediato
+
+2	rumbo
+
+3	inmenso
+
+1	impedir
+
+3	sorpresa
+
+1	extranar
+
+2	compuesto
+
+3	estudiante
+
+3	pleno
+
+2	disenar
+
+3	san
+
+3	paisaje
+
+3	armar
+
+2	generacion
+
+2	reflejar
+
+3	acordar
+
+1	culpa
+
+2	medir
+
+3	emocion
+
+2	morfologia
+
+2	cuestion
+
+2	emperador
+
+3	arena
+
+3	ritmo
+
+2	mision
+
+2	durar
+
+1	conflicto
+
+2	descripcion
+
+3	rico
+
+3	brillar
+
+2	aeropuerto
+
+2	aprovechar
+
+2	the
+
+2	viejo
+
+2	constante
+
+2	biografia
+
+2	silla
+
+3	dicha
+
+3	justo
+
+2	coordenada
+
+2	negocio
+
+2	vision
+
+2	ultimar
+
+3	mejor
+
+2	local
+
+3	participacion
+
+3	justicia
+
+2	gobernar
+
+3	pintar
+
+2	diente
+
+3	interesar
+
+2	aparicion
+
+2	localizar
+
+2	tecnico
+
+3	artistico
+
+2	convencer
+
+2	particular
+
+1	asustar
+
+2	habitat
+
+1	enemigo
+
+2	mezclar
+
+2	requerir
+
+3	literario
+
+3	primavera
+
+2	escalera
+
+2	medico
+
+2	coleccion
+
+2	instrumento
+
+2	intenso
+
+2	quiza
+
+2	carga
+
+2	vehiculo
+
+1	invadir
+
+2	ocultar
+
+2	dejo
+
+2	referencia
+
+2	secretario
+
+3	humanidad
+
+2	comentar
+
+2	actuacion
+
+2	guardia
+
+3	dibujar
+
+2	destinar
+
+2	escenario
+
+1	combate
+
+2	visita
+
+1	hambre
+
+3	alimento
+
+3	femenino
+
+2	quemar
+
+2	doble
+
+2	ingresar
+
+2	asesinar
+
+2	academia
+
+3	regalo
+
+2	probablemente
+
+2	conformar
+
+2	muro
+
+2	tender
+
+2	coche
+
+2	aereo
+
+2	electrico
+
+2	castilla
+
+3	plaza
+
+2	humedo
+
+2	cuadro
+
+2	rosa
+
+3	carino
+
+2	aplicar
+
+3	mejorar
+
+2	breve
+
+2	atrapar
+
+2	escudo
+
+3	campeon
+
+3	otorgar
+
+2	lenguaje
+
+2	monte
+
+2	extremo
+
+2	ejercer
+
+3	flotar
+
+2	diario
+
+3	probar
+
+2	fase
+
+2	industria
+
+2	afectar
+
+2	deslizar
+
+2	marido
+
+2	contrato
+
+2	arqueologico
+
+3	liberar
+
+3	caballero
+
+3	alimentar
+
+2	variar
+
+2	orilla
+
+2	inferior
+
+3	hotel
+
+2	salon
+
+2	sala
+
+2	maquina
+
+3	biblioteca
+
+2	materia
+
+1	infierno
+
+2	fijar
+
+2	repente
+
+2	extension
+
+3	regreso
+
+2	solitario
+
+2	representacion
+
+2	comision
+
+3	publicacion
+
+2	aliento
+
+2	asumir
+
+2	exterior
+
+2	techo
+
+2	tecnologia
+
+2	directamente
+
+3	conversacion
+
+2	fisico
+
+3	voluntad
+
+2	absoluto
+
+2	actriz
+
+3	horizonte
+
+3	sur
+
+2	polvo
+
+2	tormenta
+
+3	susurrar
+
+2	caracterizar
+
+2	periodico
+
+2	tipico
+
+3	juventud
+
+3	botanico
+
+2	princesa
+
+2	politica
+
+2	brillante
+
+2	rama
+
+2	presion
+
+2	transporte
+
+2	prestar
+
+3	llegada
+
+2	anadir
+
+2	labor
+
+2	respecto
+
+2	religion
+
+2	precio
+
+2	distinguir
+
+1	rechazar
+
+3	brisa
+
+2	verso
+
+3	aroma
+
+2	oponer
+
+3	montar
+
+2	columna
+
+2	mierda
+
+1	falso
+
+2	solucion
+
+2	escaso
+
+2	arrancar
+
+3	amante
+
+3	susurro
+
+2	codigo
+
+2	busqueda
+
+2	constitucion
+
+2	patio
+
+2	voto
+
+2	regional
+
+1	perdida
+
+1	imponer
+
+3	magico
+
+2	documento
+
+2	fantasma
+
+2	gira
+
+2	capilla
+
+3	leyenda
+
+2	interior
+
+3	mejilla
+
+2	pedazo
+
+2	seccion
+
+3	pajaro
+
+1	demonio
+
+2	obispo
+
+3	suspiro
+
+2	humo
+
+2	papa
+
+2	roca
+
+1	victima
+
+2	colgar
+
+2	individuo
+
+2	titular
+
+2	ajeno
+
+3	crecimiento
+
+3	variedad
+
+3	principe
+
+3	alumno
+
+2	frecuencia
+
+2	terrible
+
+2	merecer
+
+2	caida
+
+2	dolar
+
+3	deporte
+
+2	provenir
+
+2	llave
+
+3	compositor
+
+3	latir
+
+2	aplicacion
+
+2	presente
+
+2	exposicion
+
+2	interno
+
+3	sexual
+
+2	maximo
+
+3	actitud
+
+3	carcajada
+
+3	catedral
+
+1	encerrar
+
+1	arrastrar
+
+2	catolico
+
+2	devolver
+
+3	relato
+
+2	composicion
+
+3	nacimiento
+
+2	asentamiento
+
+3	simbolo
+
+2	contenido
+
+3	vestido
+
+2	crisis
+
+3	magia
+
+2	video
+
+3	cientifico
+
+3	papa
+
+3	barco
+
+2	comandante
+
+3	banda
+
+2	continuo
+
+2	comercio
+
+2	seriar
+
+2	resolver
+
+2	cola
+
+2	duque
+
+3	inspirar
+
+1	diputado
+
+3	familiar
+
+2	dominio
+
+2	derecho
+
+3	filosofia
+
+2	reinar
+
+2	caber
+
+2	eliminar
+
+2	and
+
+3	regalar
+
+3	esencia
+
+2	toma
+
+2	derivar
+
+2	pegar
+
+2	vaso
+
+2	normal
+
+3	ligero
+
+1	regimen
+
+2	gobernador
+
+3	amanecer
+
+3	cantante
+
+2	activo
+
+3	divino
+
+2	sobrevivir
+
+3	reconocimiento
+
+3	infinito
+
+2	monumento
+
+3	madera
+
+2	arquitectura
+
+2	graduar
+
+2	asistir
+
+3	ola
+
+2	candidato
+
+2	circulo
+
+1	pobreza
+
+2	volumen
+
+2	prometer
+
+2	cerebro
+
+2	interior
+
+2	espada
+
+2	opinion
+
+3	nota
+
+1	odio
+
+2	sierra
+
+2	botella
+
+2	partida
+
+1	prohibir
+
+2	citar
+
+2	aca
+
+2	proporcionar
+
+2	nucleo
+
+2	practico
+
+2	izquierda
+
+2	identificar
+
+2	general
+
+2	disparar
+
+2	nariz
+
+3	constitucional
+
+2	transmitir
+
+3	infancia
+
+3	oceano
+
+2	editar
+
+2	encima
+
+2	instalacion
+
+2	periodista
+
+2	perseguir
+
+2	enterar
+
+1	peligro
+
+3	vivienda
+
+2	macho
+
+2	grabacion
+
+2	garganta
+
+2	zapato
+
+3	aventura
+
+2	grave
+
+2	reaccion
+
+2	aferrar
+
+3	dibujo
+
+2	americano
+
+2	inmediatamente
+
+3	amistad
+
+2	desierto
+
+2	revelar
+
+2	marco
+
+1	hundir
+
+3	ferrocarril
+
+2	secundario
+
+2	tumba
+
+2	temblar
+
+2	salar
+
+2	exponer
+
+3	sabio
+
+2	atrever
+
+2	acostumbrar
+
+2	estrenar
+
+3	pintor
+
+2	habia
+
+2	capitulo
+
+2	circunstancia
+
+2	bolsillo
+
+2	operar
+
+2	reflejo
+
+1	sucio
+
+1	militar
+
+2	asiento
+
+3	musico
+
+3	comunicar
+
+2	ligar
+
+3	atraer
+
+1	molestar
+
+2	registrar
+
+1	herido
+
+2	ancho
+
+2	ministerio
+
+2	comentario
+
+2	habitual
+
+2	consumir
+
+3	proposito
+
+2	basico
+
+2	bar
+
+3	inventar
+
+2	torno
+
+2	ayuntamiento
+
+2	minimo
+
+2	agregar
+
+2	tratamiento
+
+2	facultad
+
+2	cristo
+
+1	nervioso
+
+3	inaugurar
+
+1	condenar
+
+2	profundidad
+
+2	profesional
+
+3	bonito
+
+2	buque
+
+2	confirmar
+
+2	latino
+
+2	personalidad
+
+2	huella
+
+2	proteccion
+
+2	moneda
+
+3	apreciar
+
+2	juicio
+
+2	bolsa
+
+3	expedicion
+
+2	estremecer
+
+2	trabajador
+
+3	tropical
+
+2	coger
+
+2	ciento
+
+2	pantalla
+
+2	entorno
+
+2	interpretacion
+
+2	verme
+
+2	patron
+
+2	misterio
+
+2	clasificar
+
+1	riesgo
+
+1	angustia
+
+2	infantil
+
+3	saludar
+
+2	tienda
+
+2	celula
+
+2	gemir
+
+1	accidente
+
+2	parroquia
+
+3	desempenar
+
+2	testigo
+
+2	tomo
+
+2	coronel
+
+2	capital
+
+3	tierno
+
+3	adoptar
+
+2	pasillo
+
+2	dominar
+
+3	habilidad
+
+3	protagonista
+
+2	espectaculo
+
+2	pista
+
+3	melodia
+
+3	percibir
+
+3	promesa
+
+3	ternura
+
+2	soltar
+
+2	superior
+
+2	factor
+
+2	conquistar
+
+2	conceder
+
+2	discografico
+
+3	charlar
+
+2	hielo
+
+3	maravilloso
+
+2	estatal
+
+2	regla
+
+2	lanzamiento
+
+3	corazon
+
+2	explicacion
+
+2	maestro
+
+2	tecnica
+
+2	cliente
+
+2	quimico
+
+1	amenazar
+
+2	argumento
+
+3	fantasia
+
+2	presidir
+
+3	costa
+
+2	complejo
+
+2	fino
+
+2	oculto
+
+2	bastar
+
+1	forzar
+
+2	diocesis
+
+2	show
+
+2	futbolista
+
+2	opcion
+
+3	fresco
+
+3	calido
+
+2	autonomo
+
+2	sello
+
+2	diferenciar
+
+2	trayectoria
+
+1	enterrar
+
+3	anciano
+
+2	ejecutar
+
+2	reforma
+
+2	fama
+
+2	monasterio
+
+1	maldito
+
+3	encantar
+
+2	carretero
+
+3	confianza
+
+3	brillo
+
+2	representante
+
+3	ascender
+
+2	concluir
+
+2	cigarrillo
+
+2	latino
+
+2	presentacion
+
+2	transportar
+
+2	centrar
+
+2	capturar
+
+3	medalla
+
+3	analisis
+
+3	acceder
+
+2	carro
+
+2	dimension
+
+2	arquitecto
+
+1	cruel
+
+2	leche
+
+3	colaborar
+
+2	salida
+
+2	internet
+
+2	cueva
+
+2	sustituir
+
+2	pronunciar
+
+2	provincial
+
+2	copar
+
+3	olimpico
+
+2	trato
+
+2	ceder
+
+2	registro
+
+2	sacerdote
+
+2	gonzalez
+
+2	jamar
+
+3	heroe
+
+2	originalmente
+
+2	carretera
+
+3	elaborar
+
+3	fabricar
+
+2	reemplazar
+
+2	acudir
+
+3	dama
+
+2	copia
+
+2	eco
+
+2	cerveza
+
+2	asamblea
+
+3	alegre
+
+2	poderoso
+
+2	normalmente
+
+2	espera
+
+2	banco
+
+2	vacio
+
+3	lindo
+
+3	alianza
+
+1	violencia
+
+1	cementerio
+
+2	equivocar
+
+2	canon
+
+2	entidad
+
+3	pequeno
+
+2	apretar
+
+3	fenomeno
+
+3	banar
+
+3	descanso
+
+2	pantalon
+
+3	concentrar
+
+3	interesante
+
+3	logro
+
+3	rural
+
+3	disponible
+
+2	muestra
+
+2	descender
+
+1	desesperar
+
+2	clavar
+
+2	arrojar
+
+3	acontecimiento
+
+3	conectar
+
+3	informar
+
+3	cultivo
+
+2	conocido
+
+2	fila
+
+3	agradecer
+
+2	secar
+
+2	apuntar
+
+2	agente
+
+2	practicar
+
+3	proyectar
+
+2	hierro
+
+3	criatura
+
+1	cadaver
+
+2	competencia
+
+1	mancha
+
+3	alba
+
+1	someter
+
+2	transcurrir
+
+2	atender
+
+1	asesinato
+
+2	fabrica
+
+3	otono
+
+2	rodar
+
+2	organismo
+
+2	ingeniero
+
+2	electronico
+
+3	imaginacion
+
+2	juez
+
+3	cristiano
+
+2	localizacion
+
+3	vientre
+
+2	vicepresidente
+
+2	umbral
+
+2	encabezar
+
+2	mapa
+
+2	anual
+
+2	rodilla
+
+2	dificultad
+
+2	reciente
+
+3	curiosidad
+
+2	unicamente
+
+2	organo
+
+2	plato
+
+2	prensa
+
+1	interrumpir
+
+3	ciudadano
+
+3	calma
+
+3	opera
+
+2	formato
+
+2	sugerir
+
+2	figurar
+
+2	borde
+
+3	experimentar
+
+1	debil
+
+3	ensenanza
+
+2	ignorar
+
+2	portar
+
+2	tabla
+
+3	perdon
+
+2	sumar
+
+2	excepcion
+
+3	aprobar
+
+2	continuacion
+
+1	sudor
+
+3	fiel
+
+2	contrario
+
+2	tribu
+
+2	traje
+
+3	dulzura
+
+3	nocturno
+
+2	multiple
+
+3	confiar
+
+2	cometer
+
+1	sufrimiento
+
+2	asociar
+
+2	combatir
+
+2	capa
+
+3	paseo
+
+2	agricultura
+
+3	lectura
+
+2	rendir
+
+2	coordenado
+
+3	cuidado
+
+3	nieve
+
+2	clasificacion
+
+2	preciso
+
+2	celular
+
+3	nieto
+
+2	vena
+
+3	piano
+
+3	pasear
+
+2	ambito
+
+3	debut
+
+3	avenir
+
+2	identidad
+
+3	colaboracion
+
+2	medicina
+
+2	exigir
+
+2	venta
+
+2	denominacion
+
+2	temprano
+
+2	recostar
+
+2	infraestructura
+
+2	peligroso
+
+3	fundamental
+
+2	lobo
+
+3	medico
+
+2	peninsula
+
+3	perdonar
+
+2	fijamente
+
+2	mio
+
+2	promedio
+
+3	evolucion
+
+2	estatua
+
+1	coalicion
+
+1	tribunal
+
+2	llover
+
+3	potencia
+
+3	seguramente
+
+2	comportamiento
+
+2	invasion
+
+3	valle
+
+2	noreste
+
+2	cuadrar
+
+1	asesino
+
+2	brotar
+
+2	infinito
+
+2	camisa
+
+3	semilla
+
+3	respeto
+
+3	fotografia
+
+1	pesar
+
+2	distribuir
+
+2	indio
+
+2	alcohol
+
+2	taller
+
+2	proceder
+
+1	presa
+
+3	onda
+
+1	pelear
+
+2	practicamente
+
+3	correcto
+
+2	retablo
+
+2	existente
+
+1	aguardar
+
+2	mojar
+
+2	fijo
+
+2	recorrido
+
+2	arco
+
+3	mental
+
+2	televisivo
+
+3	tesoro
+
+2	ciclo
+
+1	murmurar
+
+2	oler
+
+2	responsabilidad
+
+2	historiador
+
+2	abogado
+
+2	corriente
+
+3	respiracion
+
+2	you
+
+2	concurso
+
+2	amarillo
+
+3	cientifico
+
+2	eternidad
+
+3	mariposa
+
+2	anillo
+
+3	baile
+
+3	limpio
+
+3	humano
+
+3	calmar
+
+2	individual
+
+2	orgullo
+
+2	altitud
+
+2	apariencia
+
+2	definitivamente
+
+2	reserva
+
+2	extenso
+
+2	huevo
+
+3	adecuar
+
+3	escultura
+
+2	cesar
+
+2	trono
+
+2	comite
+
+1	acusar
+
+2	gestion
+
+3	selva
+
+3	bahia
+
+2	estrellar
+
+2	solicitar
+
+2	nba
+
+1	terror
+
+3	brindar
+
+3	grabado
+
+2	tratado
+
+3	triunfo
+
+2	fundador
+
+1	sangrar
+
+2	entrenador
+
+2	sagrado
+
+1	crimen
+
+2	national
+
+3	promover
+
+3	conquista
+
+2	oreja
+
+1	prision
+
+3	sendero
+
+2	virgen
+
+2	resistir
+
+3	tambien
+
+2	critica
+
+3	arroyo
+
+3	justo
+
+2	traducir
+
+2	vaciar
+
+2	agarrar
+
+2	adentro
+
+2	porque
+
+2	permanente
+
+1	reclamar
+
+2	oficialmente
+
+1	abismo
+
+2	oposicion
+
+1	ahogar
+
+2	competicion
+
+3	futuro
+
+2	militar
+
+2	caracteristico
+
+3	democratico
+
+2	freir
+
+2	puta
+
+2	electoral
+
+2	delgado
+
+2	aldea
+
+3	albergar
+
+3	lector
+
+2	poblar
+
+2	extranjero
+
+3	virtud
+
+2	virgen
+
+2	adulto
+
+1	pesadilla
+
+1	multitud
+
+2	dorar
+
+2	jurar
+
+2	previo
+
+3	inteligencia
+
+2	herramienta
+
+2	contrario
+
+2	apertura
+
+3	aliado
+
+3	lavar
+
+2	presidencia
+
+3	programar
+
+2	cantante
+
+2	pago
+
+2	primario
+
+3	gozar
+
+2	suceso
+
+2	acostar
+
+2	grande
+
+3	reunion
+
+2	nostalgia
+
+2	advertir
+
+3	solista
+
+3	conversar
+
+2	impulsar
+
+2	silencioso
+
+2	recientemente
+
+2	mezcla
+
+1	herida
+
+2	primo
+
+2	murmullo
+
+2	agitar
+
+2	bateria
+
+1	rutina
+
+3	milagro
+
+2	tramo
+
+2	cabecera
+
+3	familiar
+
+3	bien
+
+3	contribuir
+
+3	arquitectonico
+
+2	declaracion
+
+2	dias
+
+2	llama
+
+3	ascenso
+
+2	ama
+
+3	excelente
+
+2	fluir
+
+2	audiencia
+
+3	riqueza
+
+2	modificar
+
+2	vela
+
+1	enganar
+
+3	exitoso
+
+2	loco
+
+2	indigena
+
+3	miel
+
+1	mentir
+
+2	tendencia
+
+2	piedad
+
+3	solar
+
+3	turismo
+
+3	moral
+
+2	borrar
+
+2	decreto
+
+2	definitivo
+
+2	aqui
+
+2	cura
+
+2	especializar
+
+1	fumar
+
+1	droga
+
+2	monje
+
+3	azul
+
+2	notable
+
+2	oriente
+
+2	vidrio
+
+2	renta
+
+3	amigo
+
+3	pato
+
+3	precioso
+
+3	pluma
+
+2	atar
+
+3	satisfacer
+
+2	caliente
+
+2	agrupar
+
+2	nominar
+
+2	posesion
+
+3	respetar
+
+2	precisamente
+
+2	implicar
+
+2	editorial
+
+2	misterioso
+
+2	impacto
+
+2	margen
+
+3	descubrimiento
+
+2	constar
+
+3	sabio
+
+2	isleno
+
+1	carcel
+
+2	tradicionalmente
+
+2	manifestar
+
+2	invisible
+
+3	propuesta
+
+3	universitario
+
+2	paular
+
+3	divertir
+
+2	rueda
+
+2	ventaja
+
+2	ubicacion
+
+2	patrimonio
+
+2	vano
+
+2	signo
+
+2	bestia
+
+1	convento
+
+2	pico
+
+3	tour
+
+3	comprobar
+
+1	estallar
+
+2	ejercicio
+
+2	fisico
+
+1	lloro
+
+3	lucir
+
+1	insistir
+
+3	disposicion
+
+1	pobre
+
+2	escala
+
+3	eje
+
+3	madrugada
+
+2	invitado
+
+3	danzar
+
+2	ciego
+
+2	jornada
+
+1	enemigo
+
+3	exacto
+
+2	adaptar
+
+2	impulso
+
+2	aparato
+
+3	comarca
+
+1	pelea
+
+2	legislatura
+
+2	explotar
+
+2	respectivamente
+
+2	especifico
+
+3	manejar
+
+2	productor
+
+3	automovil
+
+2	toro
+
+2	prisa
+
+2	posiblemente
+
+2	aumento
+
+3	isleno
+
+2	delante
+
+3	victoria
+
+3	alzar
+
+2	material
+
+3	canto
+
+3	delicado
+
+1	tardar
+
+2	originario
+
+3	coincidir
+
+3	ensayo
+
+2	penetrar
+
+2	candidatura
+
+2	talvez
+
+1	desesperacion
+
+2	avenida
+
+3	semifinal
+
+3	planear
+
+3	seguro
+
+2	comparar
+
+3	agradable
+
+2	quebrar
+
+2	formula
+
+2	colectivo
+
+3	silueta
+
+2	renunciar
+
+3	supremo
+
+3	rosa
+
+3	prever
+
+2	intervencion
+
+2	despierto
+
+2	usuario
+
+2	anciano
+
+2	contratar
+
+1	monstruo
+
+3	restaurante
+
+3	tarde
+
+3	humor
+
+3	plantar
+
+3	saber
+
+2	bomba
+
+2	inundar
+
+2	cuchillo
+
+3	homenaje
+
+2	consolidar
+
+3	competir
+
+2	league
+
+2	coste
+
+3	concentracion
+
+3	elegido
+
+2	definicion
+
+2	exactamente
+
+2	combinar
+
+2	ceremonia
+
+2	cruz
+
+1	criticar
+
+3	inocente
+
+2	palpitar
+
+3	ganador
+
+3	celebracion
+
+2	hilo
+
+2	pisar
+
+1	basura
+
+2	mueca
+
+2	extranjero
+
+1	endemico
+
+2	bronce
+
+2	palido
+
+2	legislativo
+
+1	catolico
+
+2	posar
+
+1	preocupacion
+
+1	amargo
+
+2	hembra
+
+3	escoger
+
+2	procedente
+
+2	tecnico
+
+2	consuelo
+
+2	confesar
+
+3	pop
+
+2	socialista
+
+2	espanol
+
+2	contexto
+
+2	humedad
+
+2	moda
+
+2	ganaderia
+
+2	creencia
+
+2	correspondiente
+
+1	enfermo
+
+3	turistico
+
+2	plataforma
+
+2	clave
+
+2	animo
+
+2	discurso
+
+2	internacional
+
+2	hondo
+
+2	claramente
+
+2	obligacion
+
+2	sal
+
+3	beneficio
+
+3	montanoso
+
+2	miar
+
+2	sesion
+
+2	evidente
+
+2	retrato
+
+2	permiso
+
+1	destruccion
+
+2	galeria
+
+2	cotidiano
+
+2	limpiar
+
+2	autobus
+
+2	ruina
+
+2	atribuir
+
+2	despues
+
+2	biografiar
+
+2	sureste
+
+3	danza
+
+2	mecanismo
+
+3	cercania
+
+3	ficcion
+
+1	escupir
+
+2	trozo
+
+3	nino
+
+2	gastar
+
+2	instruccion
+
+2	nacionalista
+
+2	espiritual
+
+3	frecuente
+
+2	muralla
+
+3	honor
+
+2	empapar
+
+2	firma
+
+1	judicial
+
+1	derrota
+
+1	ira
+
+2	apoderar
+
+2	regular
+
+2	establecimiento
+
+2	morder
+
+2	rango
+
+3	tranquilidad
+
+2	derramar
+
+3	compromiso
+
+3	positivo
+
+2	brigada
+
+2	bit
+
+1	cigarro
+
+1	aburrir
+
+2	empujar
+
+3	oracion
+
+3	admitir
+
+2	rol
+
+1	insecto
+
+3	atlantico
+
+3	abundante
+
+3	orquesta
+
+2	aproximar
+
+3	certeza
+
+3	mediterraneo
+
+1	diablo
+
+2	extremo
+
+3	talento
+
+2	proveniente
+
+1	empleado
+
+2	naval
+
+3	curioso
+
+1	tension
+
+2	representativo
+
+3	noble
+
+3	cerro
+
+3	conexion
+
+2	sumergir
+
+3	increible
+
+2	tibio
+
+3	artista
+
+2	expansion
+
+3	musico
+
+2	cuerda
+
+2	paralelo
+
+3	arreglar
+
+2	anotar
+
+2	nuclear
+
+1	tembloroso
+
+3	paraiso
+
+2	comunista
+
+2	cintura
+
+2	liderar
+
+3	muneca
+
+2	terrestre
+
+3	equilibrio
+
+2	salvaje
+
+3	estrategia
+
+3	castillo
+
+2	externo
+
+3	videojuego
+
+2	impresion
+
+2	lista
+
+1	aguantar
+
+3	guia
+
+2	listar
+
+3	cultivar
+
+2	pozo
+
+2	prender
+
+3	acomodar
+
+2	apartar
+
+2	circuito
+
+1	absurdo
+
+1	discutir
+
+2	altar
+
+1	feo
+
+2	fuertemente
+
+2	latin
+
+3	inspiracion
+
+2	castellano
+
+2	desvanecer
+
+1	discusion
+
+2	yacer
+
+2	gobernador
+
+1	expulsar
+
+1	mortal
+
+3	promocion
+
+2	estimar
+
+2	rasgo
+
+2	cita
+
+1	horrible
+
+1	fracaso
+
+1	amenaza
+
+3	admirar
+
+2	varon
+
+2	principal
+
+2	lineo
+
+2	serpiente
+
+2	marques
+
+2	transferir
+
+3	emprender
+
+1	venganza
+
+2	plazo
+
+2	reaccionar
+
+2	conclusion
+
+3	avance
+
+2	complejo
+
+1	rival
+
+3	atardecer
+
+2	barro
+
+2	ansia
+
+1	apurar
+
+3	etnico
+
+3	librar
+
+2	dinastia
+
+3	botanico
+
+2	cobrar
+
+3	oficio
+
+3	sincero
+
+3	querido
+
+3	responsable
+
+1	cazar
+
+3	perfume
+
+2	mixto
+
+2	pelota
+
+1	maldito
+
+3	anhelo
+
+1	furia
+
+2	parado
+
+2	efectuar
+
+3	santo
+
+2	repartir
+
+2	arder
+
+1	inutil
+
+2	inicial
+
+1	complicar
+
+2	verguenza
+
+2	metalico
+
+2	agudo
+
+3	facilmente
+
+2	suroeste
+
+1	vacio
+
+1	violento
+
+3	perfectamente
+
+3	intervenir
+
+1	cansancio
+
+1	pecado
+
+2	tunel
+
+2	teniente
+
+3	ocupacion
+
+3	mario
+
+2	personal
+
+2	profundar
+
+2	mina
+
+2	respectivo
+
+1	lamento
+
+3	productor
+
+1	timar
+
+3	consolar
+
+2	probable
+
+2	relativo
+
+2	medieval
+
+3	significativo
+
+2	bajo
+
+3	espacial
+
+1	entrana
+
+3	dulce
+
+2	sigla
+
+2	erigir
+
+3	video
+
+2	laboratorio
+
+2	niebla
+
+1	disminuir
+
+3	azucar
+
+3	cumpleanos
+
+2	rumor
+
+2	bus
+
+1	deuda
+
+2	ejecucion
+
+3	funcionamiento
+
+2	vapor
+
+2	continente
+
+2	disimular
+
+2	paciente
+
+2	salto
+
+3	instinto
+
+3	manana
+
+3	infante
+
+3	solar
+
+2	tarjeta
+
+2	software
+
+1	agujero
+
+2	credito
+
+1	carecer
+
+2	manga
+
+2	manifestacion
+
+2	cortina
+
+1	tropezar
+
+3	humilde
+
+3	rozar
+
+2	tragar
+
+2	desplazar
+
+2	placa
+
+2	seleccionar
+
+2	lecho
+
+2	totalidad
+
+1	rabia
+
+3	creador
+
+2	desprender
+
+3	revolucionario
+
+3	sillon
+
+2	incrementar
+
+2	saco
+
+1	enloquecer
+
+2	guerrero
+
+2	relativamente
+
+2	sombrero
+
+2	rastro
+
+2	camion
+
+2	encargado
+
+2	ducado
+
+3	baloncesto
+
+3	inteligente
+
+3	aerolinea
+
+2	mudar
+
+1	depresion
+
+2	referenciar
+
+2	senador
+
+2	bola
+
+2	recinto
+
+3	sobrino
+
+1	lastimar
+
+2	cinta
+
+3	atletico
+
+2	noroeste
+
+3	rocio
+
+2	dragon
+
+2	fragil
+
+2	explosion
+
+3	aviacion
+
+3	cumbre
+
+2	intensidad
+
+2	traduccion
+
+2	grueso
+
+3	nido
+
+2	empresario
+
+2	resolucion
+
+2	popularidad
+
+2	conferencia
+
+2	norma
+
+2	interminable
+
+2	mandato
+
+3	temprano
+
+2	componente
+
+2	duracion
+
+2	marchito
+
+1	incendio
+
+1	distante
+
+2	demanda
+
+2	adaptacion
+
+2	vereda
+
+2	centimetro
+
+2	jazz
+
+2	costo
+
+3	fuerte
+
+2	visible
+
+3	cena
+
+2	tubo
+
+3	billete
+
+3	sinopsis
+
+1	artificial
+
+3	comic
+
+3	suavemente
+
+2	ingenieria
+
+3	pasaje
+
+2	combinacion
+
+2	turno
+
+2	seno
+
+3	hierba
+
+2	circular
+
+1	incapaz
+
+2	orar
+
+2	socio
+
+2	aportar
+
+3	democracia
+
+3	guitarrista
+
+3	escritura
+
+3	ampliar
+
+1	sed
+
+3	alegrar
+
+2	emision
+
+1	trafico
+
+2	convocar
+
+2	espectador
+
+1	caro
+
+1	desgracia
+
+2	transmision
+
+2	liquido
+
+2	confusion
+
+2	fachada
+
+2	matematico
+
+2	digital
+
+2	campana
+
+3	extraordinario
+
+2	piloto
+
+2	aeronave
+
+3	pasajero
+
+3	fugaz
+
+2	apellido
+
+2	sujeto
+
+2	mismo
+
+3	chocolate
+
+1	vengar
+
+1	chocar
+
+2	tiro
+
+3	web
+
+2	quieto
+
+1	vomitar
+
+2	quizas
+
+3	amado
+
+2	disparo
+
+2	alcance
+
+2	presidencial
+
+2	era
+
+3	sabana
+
+2	frecuentemente
+
+3	intelectual
+
+2	ceniza
+
+2	territorial
+
+2	percatar
+
+3	music
+
+2	colonial
+
+2	proclamar
+
+2	acumular
+
+1	enfrentamiento
+
+3	natural
+
+2	mando
+
+3	paloma
+
+2	vas
+
+3	petalo
+
+2	acelerar
+
+2	funcionario
+
+3	almohada
+
+2	particularmente
+
+3	vital
+
+3	liberacion
+
+2	profundo
+
+2	sustancia
+
+1	cancer
+
+2	nervio
+
+3	reina
+
+3	manzana
+
+3	encanto
+
+2	doblar
+
+2	etimologia
+
+2	america
+
+2	informe
+
+2	consumo
+
+3	armonia
+
+1	sediento
+
+2	voltear
+
+2	gordo
+
+2	barrera
+
+2	aceite
+
+3	impregnar
+
+3	observacion
+
+3	parlamento
+
+2	delito
+
+2	tapar
+
+2	paquete
+
+2	consciente
+
+3	fusionar
+
+2	deje
+
+2	trago
+
+3	feria
+
+2	sorbo
+
+3	empleo
+
+2	debe
+
+2	conservacion
+
+2	helar
+
+2	una
+
+2	cristiano
+
+3	hada
+
+2	aislar
+
+2	ahi
+
+3	inocencia
+
+2	destrozar
+
+2	verso
+
+2	microsoft
+
+1	culto
+
+2	archivo
+
+3	ejemplar
+
+2	misa
+
+2	procedimiento
+
+2	fusion
+
+3	manto
+
+3	navegar
+
+2	educativo
+
+3	curar
+
+2	plano
+
+2	suspender
+
+1	castigo
+
+3	boda
+
+2	picar
+
+2	llamada
+
+2	toclop
+
+2	esfumar
+
+2	argumentar
+
+2	indice
+
+2	calcular
+
+2	escalofrio
+
+2	tonto
+
+2	pulmon
+
+3	primero
+
+3	tela
+
+2	lleno
+
+3	realista
+
+2	palma
+
+2	colonia
+
+2	falda
+
+2	entrevista
+
+2	monton
+
+2	sacrificio
+
+3	practica
+
+2	perciforme
+
+2	agrupacion
+
+3	asistencia
+
+3	navidad
+
+2	penumbra
+
+2	extraer
+
+2	separacion
+
+2	conducta
+
+3	digno
+
+3	templar
+
+2	tronco
+
+2	grita
+
+2	estomago
+
+2	atmosfera
+
+2	escritorio
+
+2	paciente
+
+2	anorar
+
+2	fundir
+
+3	rico
+
+3	adornar
+
+2	pasajero
+
+2	lateral
+
+3	programacion
+
+2	maria
+
+1	dictadura
+
+2	global
+
+2	proteina
+
+1	ansiedad
+
+1	explotacion
+
+2	exterior
+
+3	vegetacion
+
+1	miseria
+
+1	culpable
+
+3	claridad
+
+2	secreto
+
+3	naranja
+
+2	teatral
+
+2	caza
+
+2	gigante
+
+2	examen
+
+2	plantear
+
+2	asignar
+
+3	amanecer
+
+1	fallar
+
+2	corriente
+
+2	sera
+
+2	deshacer
+
+2	celo
+
+2	juridico
+
+2	primitivo
+
+3	rescatar
+
+1	sollozo
+
+2	gobernacion
+
+2	agotar
+
+2	bala
+
+2	particula
+
+1	mudo
+
+2	regimiento
+
+2	revisar
+
+2	volcan
+
+2	transformacion
+
+3	pastor
+
+1	danar
+
+1	agonia
+
+2	lastima
+
+2	diametro
+
+3	hermanar
+
+1	espina
+
+3	computador
+
+2	esfera
+
+2	bandera
+
+1	castigar
+
+2	influir
+
+3	super
+
+2	prolongar
+
+3	desnudar
+
+2	masivo
+
+2	ligeramente
+
+2	hueco
+
+2	analizar
+
+2	alrededor
+
+2	defecto
+
+3	realizacion
+
+1	penar
+
+1	tragedia
+
+2	compra
+
+2	gigante
+
+3	residencia
+
+3	dialogo
+
+2	datar
+
+2	rebelion
+
+2	investigador
+
+2	afuera
+
+2	dvd
+
+3	film
+
+2	caos
+
+2	administrativo
+
+2	inversion
+
+2	senorito
+
+2	guiar
+
+2	correo
+
+3	bebe
+
+1	enojar
+
+2	juzgar
+
+3	juvenil
+
+2	constantemente
+
+2	poblado
+
+2	antiguedad
+
+3	nadar
+
+2	respectar
+
+2	resignar
+
+2	inmovil
+
+2	masculino
+
+2	anhelar
+
+2	musculo
+
+2	influenciar
+
+2	top
+
+2	vecino
+
+2	infanteria
+
+2	remedio
+
+2	esencial
+
+2	quinto
+
+3	narrar
+
+3	luminoso
+
+2	trasero
+
+2	tornar
+
+2	platicar
+
+3	cinematografico
+
+3	anoche
+
+2	experimento
+
+3	forestal
+
+2	fragmento
+
+3	alternativa
+
+3	queso
+
+3	inmensidad
+
+3	gloria
+
+2	sentencia
+
+2	exclusivamente
+
+2	estrecho
+
+2	adicional
+
+3	util
+
+2	adorar
+
+2	variacion
+
+2	aparentemente
+
+2	entrenamiento
+
+2	maritimo
+
+2	inevitable
+
+3	llanura
+
+2	estan
+
+2	mariano
+
+1	prisionero
+
+2	absolutamente
+
+3	sabiduria
+
+3	concilio
+
+2	ejecutivo
+
+2	subespecie
+
+3	iniciativa
+
+3	suspirar
+
+1	veneno
+
+2	largar
+
+2	influyente
+
+3	sutil
+
+2	exclamar
+
+2	ardiente
+
+2	estrecho
+
+2	euro
+
+3	objetivo
+
+2	facilitar
+
+2	sedar
+
+2	profesion
+
+2	septentrional
+
+3	investigar
+
+3	campamento
+
+2	horror
+
+2	subtropical
+
+2	cerdo
+
+2	postura
+
+2	barra
+
+3	perspectiva
+
+1	esclavo
+
+2	absorber
+
+3	responsable
+
+2	chico
+
+2	ansioso
+
+2	cero
+
+2	deja
+
+3	enamorado
+
+3	sinfonico
+
+3	caballeria
+
+3	amoroso
+
+2	sabana
+
+2	contraer
+
+2	visual
+
+3	vincular
+
+1	terremoto
+
+2	licenciar
+
+2	republicano
+
+2	giro
+
+3	elegante
+
+2	aguar
+
+1	melancolia
+
+2	comparacion
+
+2	miembro
+
+2	angulo
+
+3	atraccion
+
+2	reojo
+
+2	significado
+
+1	congelar
+
+1	pistola
+
+3	amable
+
+3	comedia
+
+2	central
+
+1	doloroso
+
+3	facilidad
+
+3	sublime
+
+3	prado
+
+2	tejer
+
+2	flujo
+
+2	enfermero
+
+3	paciencia
+
+3	termico
+
+3	civilizacion
+
+2	introduccion
+
+3	pionero
+
+2	ramal
+
+2	pena
+
+3	angel
+
+2	rubio
+
+2	cajon
+
+3	restauracion
+
+2	logica
+
+2	that
+
+2	sien
+
+3	contento
+
+2	administrativo
+
+2	taxi
+
+2	peticion
+
+2	del
+
+0	baaaaasta
+
+1	juevesintratable
+
+3	buen
+
+2	cristina
+
+2	evolucionencambiemos
+
+1	menos
+
+0	macrilaguitanoalcanza
+
+1	secuaces
+
+1	arrepentidos
+
+0	careeeseemo
+
+2	visto
+
+2	al
+
+2	version
+
+2	empresarios
+
+2	cambiemosacambiemos
+
+2	estoy
+
+1	culos
+
+2	hicieron
+
+2	siempre
+
+2	fico
+
+3	gracias
+
+2	quien
+
+2	infinita
+
+2	cadenadeoracion
+
+2	primer
+
+1	caiga
+
+2	alquilar
+
+2	hoy
+
+2	diciendo
+
+3	nutritivo
+
+1	fato
+
+2	pasos
+
+1	gritaba
+
+2	difundir
+
+2	empecemos
+
+2	digamos
+
+0	troll
+
+2	todo
+
+2	llevan
+
+2	sale
+
+2	ella
+
+3	buensabado
+
+2	de
+
+0	massarasa
+
+2	hablamos
+
+0	macriandate
+
+1	fmi
+
+2	domingo
+
+0	mugricio
+
+2	abuela
+
+1	falto
+
+2	brasil
+
+2	mauriciomacri
+
+2	resumen
+
+2	pinto
+
+2	hola
+
+3	apetitoso
+
+0	baaaaastaaaaa
+
+1	doblevara
+
+2	legal
+
+2	dijo
+
+2	el
+
+2	en
+
+1	negociados
+
+2	es
+
+2	dejarlo
+
+2	donde
+
+0	traicionero
+
+2	contamedelamor
+
+3	buenas
+
+0	cancha
+
+2	toyota
+
+0	gorila
+
+0	cipayo
+
+2	llueve
+
+2	mayoritaria
+
+2	santa
+
+2	ahora
+
+2	arribas
+
+2	tiene
+
+1	saqueo
+
+2	rate
+
+0	estatuzar
+
+1	juega
+
+1	sin
+
+0	choriplanes
+
+0	noal2x1
+
+0	concha
+
+2	apuntes
+
+2	una
+
+0	robaste
+
+0	corrupcin
+
+2	tienen
+
+0	garca
+
+1	perdimos
+
+0	imbecil
+
+2	votar
+
+0	pelotudos
+
+0	dongato
+
+0	inutiles
+
+2	eldestapeweb
+
+0	macrihambre
+
+2	spot
+
+2	empiezan
+
+2	buendomingo
+
+0	baaaasta
+
+2	levantarte
+
+2	cambiandojuntos
+
+0	boludos
+
+2	convocatoria
+
+2	tuviera
+
+0	scioligatos
+
+1	mal
+
+3	mas
+
+1	mau
+
+1	sope
+
+2	ponen
+
+3	suertudos
+
+2	celeste
+
+1	resistiendo
+
+2	la
+
+1	sacado
+
+2	ese
+
+1	vayan
+
+3	creo
+
+2	le
+
+2	fui
+
+2	inversiones
+
+1	kirchnerismo
+
+2	refugiozeta
+
+1	negra
+
+2	con
+
+2	lo
+
+1	arbolito
+
+4	navidad
+
+2	son
+
+2	femenina
+
+1	sory
+
+2	me
+
+2	mi
+
+2	soy
+
+2	merchandacing
+
+2	entre
+
+2	las
+
+2	botas
+
+2	desde
+
+2	detallista
+
+3	jajajajaja
+
+2	pibes
+
+1	globoludo
+
+2	danielrojazo
+
+2	telesurtv
+
+1	caidalibre
+
+1	ni
+
+2	mejormarcos
+
+1	macrilandia
+
+2	somos
+
+1	insultando
+
+1	chori
+
+2	lanacion
+
+1	oh
+
+2	chiste
+
+2	pesos
+
+1	bofe
+
+2	awadanai
+
+2	meses
+
+2	macri
+
+2	birra
+
+1	gatopordos
+
+2	veces
+
+2	nisman
+
+2	masculina
+
+2	rozitchner
+
+0	criminales
+
+2	octubre
+
+2	porqsoyasi
+
+2	saben
+
+2	perrito
+
+2	semanal
+
+2	encuestas
+
+2	pelaencuesta
+
+1	desaparezcan
+
+2	usted
+
+2	romerodiario
+
+2	elisacarrio
+
+0	macrivulneraddhh
+
+0	berreta
+
+2	lape
+
+2	app
+
+2	timbreonacional
+
+1	cinico
+
+1	paco
+
+2	vamos
+
+2	carinacapdevila
+
+2	laporota
+
+2	sigan
+
+2	fotos
+
+2	gratis
+
+2	ahorramos
+
+1	cabaret
+
+0	saquear
+
+2	mauricio
+
+3	incremento
+
+0	macrioligarca
+
+2	ademas
+
+2	sus
+
+2	se
+
+2	por
+
+3	si
+
+1	insana
+
+2	venia
+
+1	inconcebible
+
+1	ganarle
+
+2	cosas
+
+2	art
+
+2	su
+
+1	nadielee
+
+2	toman
+
+1	2x1
+
+2	te
+
+2	noticias
+
+2	travestis
+
+2	todos
+
+2	c5n
+
+2	tu
+
+1	mentiras
+
+2	resulta
+
+2	continua
+
+2	personales
+
+2	dogs
+
+1	andate
+
+2	un
+
+2	hay
+
+0	vendepatria
+
+2	va
+
+0	lavagato
+
+3	buenviernes
+
+1	crotone
+
+2	recomienda
+
+2	asado
+
+2	paga
+
+2	que
+
+2	records
+
+2	pero
+
+2	hijos
+
+1	cagon
+
+2	ayer
+
+1	rouge
+
+1	moulin
+
+1	historieta
+
+2	privada
+
+2	nos
+
+1	molinerouge
+
+2	dani
+
+1	gatito
+
+2	vote
+
+2	otra
+
+2	propaganda
+
+2	salario
+
+0	vidalhiena
+
+2	baten
+
+2	veodoble
+
+2	miauri
+
+0	hdp
+
+1	desempleado
+
+2	xq
+
+2	tudo
+
+2	ahorrativos
+
+1	panamapapers
+
+2	porque
+
+2	preocupado
+
+2	trump
+
+2	ya
+
+1	unaleyqueprohiba
+
+1	chaumacri
+
+2	eldiario
+
+2	casi
+
+1	encerrado
+
+2	como
+
+2	lamariana
+
+2	obvio
+
+3	sabe
+
+2	hayan
+
+3	hace
+
+2	votaron
+
+2	feriado
+
+3	love
+
+3	macrinososmipresidente
+
+1	regram
+
+2	pongan
+
+2	los
+
+1	nooo
+
+3	tengo
+
+2	ayudas
+
+2	doscientos
+
+2	cincuenta
+
+0	globotomia
+
+2	cuando
+
+0	macrigato
+
+0	lpm
+
+1	carajo
+
+2	anuario
+
+2	artistas
+
+1	psicopata
+
+1	bronca
+
+0	mugrizio
+
+0	robo
+
+2	informes
+
+2	dice
+
+1	chorro
+
+1	circo
+
+2	saga
+
+2	fortuna
+
+1	elfracasodemacri
+
+2	llegan
+
+1	maroma
+
+2	entretiempo
+
+2	alcanzan
+
+1	pusilanime
+
+2	este
+
+1	delincuente
+
+2	refiero
+
+1	dejen
+
+1	cae
+
+1	matute
+
+2	pasa
+
+2	refiere
+
+0	presimiau
+
+2	explica
+
+1	pare
+
+3	muy
+
+1	insulten
+
+2	paris
+
+0	macricat
+
+3	biendedomingo
+
+2	para
+
+2	nadie
+
+2	cambiemos
+
+2	perdon
+
+2	parece
+
+2	fans
+
+1	desastre
+
+2	sepa
+
+0	macricorrupto
+
+3	importantes
+
+2	viene
+
+1	sobrehistorieta
+
+2	comprarme

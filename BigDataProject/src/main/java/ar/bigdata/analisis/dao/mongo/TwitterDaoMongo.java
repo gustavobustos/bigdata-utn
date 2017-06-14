@@ -1,6 +1,9 @@
 package ar.bigdata.analisis.dao.mongo;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.bson.Document;
 import org.bson.conversions.Bson;
@@ -13,21 +16,32 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.Filters;
+import com.mongodb.client.model.Projections;
 import com.mongodb.client.result.UpdateResult;
 
 public class TwitterDaoMongo implements TwitterDao {
 	
 	private final Logger log = LoggerFactory.getLogger(TwitterDaoMongo.class);
 	
+	private String dbName;
 	private MongoClient mongoClient;
 	
-	public TwitterDaoMongo (String host, int port) {
+	
+	public TwitterDaoMongo (String dbName, String host, int port) {
+		this.dbName = dbName;
 		this.mongoClient = new MongoClient(host, port);
+		
 	}
 	
-	public void findAll(String dbName, String dbCollectionName) {
+	public MongoDatabase getDatabase() {
+		MongoDatabase mongoDb = mongoClient.getDatabase(dbName);
+		return mongoDb;
+	}
+	
+	public void findAll(String dbCollectionName) {
 		
-		MongoCollection<Document> collection = getDBCollection(dbName, dbCollectionName);
+		MongoCollection<Document> collection = getDBCollection(dbCollectionName);
 		
 		MongoCursor<Document> cursor = collection.find().iterator();
 		
@@ -39,33 +53,88 @@ public class TwitterDaoMongo implements TwitterDao {
 			cursor.close();
 		}
 	}
+	
 
-	public MongoCollection<Document> getDBCollection(String dbName, String dbCollectionName) {
+	public Set<String> projectionByAttribute(String dbCollectionName, String attribute) {
+	
+		Set<String> set = new HashSet<String>();
+		MongoCursor<Document> cursor = projectionByAttributes(dbCollectionName, attribute);
 		
-		MongoDatabase mongoDb = mongoClient.getDatabase(dbName);
+		try {
+			while (cursor.hasNext()) {
+				String jsonField = cursor.next().get(attribute).toString();
+				set.add(jsonField);
+			}
+		} finally {
+			cursor.close();
+		}
+		
+		if(log.isDebugEnabled()) {
+			log.info("fetching: " + set);
+		}
+		
+		return set;
+	}
+	
+	public List<String> getSingleProjectionByFilterKeyValue(String dbCollectionName, String projectionFieldKey, String filterKey, String filterValue ) {
+		
+		List<String> list = new ArrayList<String>();
+		MongoCollection<Document> collection = getDBCollection(dbCollectionName);
+		MongoCursor<Document> cursor = collection.find(Filters.eq(filterKey, filterValue)).iterator();
+		
+		try {
+			while (cursor.hasNext()) {
+				String jsonField = cursor.next().get(projectionFieldKey).toString();
+				list.add(jsonField);
+			}
+		} finally {
+			cursor.close();
+		}
+		
+		if(log.isDebugEnabled()) {
+			log.info("fetching: " + list);
+		}
+		
+		return list;
+	}
+	
+	public MongoCursor<Document> projectionByAttributes(String dbCollectionName, String... attributes) {
+		
+		MongoCollection<Document> collection = getDBCollection(dbCollectionName);
+		
+		MongoCursor<Document> cursor = collection.find().projection(Projections.include(attributes)).iterator();
+		 
+		  
+		
+		return cursor;
+	}
+	
+	public MongoCollection<Document> getDBCollection(String dbCollectionName) {
+		
+		MongoDatabase mongoDb = getDatabase();
 		MongoCollection<Document> collection = mongoDb.getCollection(dbCollectionName);
 
 		return collection;
 	}
 
 	public static void main(String[] args) {
-		TwitterDaoMongo test = new TwitterDaoMongo("localhost", 27017);
+		TwitterDaoMongo test = new TwitterDaoMongo("testdb","localhost", 27017);
 
 		//test.getConnection();
 	}
 	
-	public void insertTweet(String dbName, String collectionName, Document document) {
-		MongoCollection<Document> collection = getDBCollection(dbName, collectionName);
+	public void insertTweet(String collectionName, Document document) {
+		MongoCollection<Document> collection = getDBCollection(collectionName);
 		collection.insertOne(document);
 	}
 	
-	public void insertManyTweets(String dbName, String collectionName, List<Document> documents) {
-		MongoCollection<Document> collection = getDBCollection(dbName, collectionName);
+	public void insertManyTweets(String collectionName, List<Document> documents) {
+		MongoCollection<Document> collection = getDBCollection(collectionName);
 		collection.insertMany(documents);
 	}
 	
-	public UpdateResult updateCollectionTweets(String dbName, String collectionName, Bson bsonFilter, Document document) {
-		MongoCollection<Document> collection = getDBCollection(dbName, collectionName);
+	public UpdateResult updateCollectionTweets(String collectionName, Bson bsonFilter, Document document) {
+		MongoCollection<Document> collection = getDBCollection(collectionName);
 		UpdateResult result = collection.updateOne(bsonFilter, document);
 		return result;
 	}

@@ -2,13 +2,16 @@ package ar.bigdata.analisis.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import ar.bigdata.analisis.service.TwitterService;
+import ar.bigdata.analisis.util.StringUtil;
 import twitter4j.Query;
 import twitter4j.QueryResult;
+import twitter4j.RateLimitStatus;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -19,7 +22,7 @@ public class TwitterServiceImpl implements TwitterService {
 	
 	private final Logger log = LoggerFactory.getLogger(TwitterServiceImpl.class);
 	
-	private int numberOfTweets = 100;
+	private int maxTweetsNumber = 100;
 	
 	private Twitter twitter;
 	private ConfigurationBuilder configurationBuilder;
@@ -39,46 +42,91 @@ public class TwitterServiceImpl implements TwitterService {
 				.setOAuthAccessTokenSecret(accessTokenSecret);
 		
 		twitter = new TwitterFactory(configurationBuilder.build()).getInstance();
-		
-		this.numberOfTweets = numberOfTweets;
+		this.maxTweetsNumber = numberOfTweets;
 	}
 	
-	public List<Status> fetchTweets (String hashtag) {
+	public List<Status> fetchTweets (Long maxId, String hashtag) {
 		
-		Query query = new Query(hashtag);
-		
-		long lastID = Long.MAX_VALUE;
+		long lastID = 0;
+		if(maxId == null) {
+			lastID = Long.MAX_VALUE;
+		} else {
+			lastID = maxId.longValue();
+		}
 		
 		List<Status> tweets = new ArrayList<Status>();
 		
-		while (tweets.size() < numberOfTweets) {
+		Query query = new Query(hashtag);
+		
+		while (tweets.size() < maxTweetsNumber) {
 			
-			if (numberOfTweets - tweets.size() > 100) {
+			if (maxTweetsNumber - tweets.size() > 100) {
 				query.setCount(100);
 			} else {
-				query.setCount(numberOfTweets - tweets.size());
+				query.setCount(maxTweetsNumber - tweets.size());
 			}
 			
 			try {
-				QueryResult result = twitter.search(query);
-				tweets.addAll(result.getTweets());
-				
-				log.info("Gathered " + tweets.size() + " tweets");
-				
-				for (Status t : tweets) {
-					if (t.getId() < lastID) {
-						lastID = t.getId();
-					}
-				}
-			}
 
-			catch (TwitterException te) {
-				log.error("Couldn't connect: " + te);
+				Map<String, RateLimitStatus> rateLimitMap = twitter.getRateLimitStatus();
+				RateLimitStatus rateLimitStatus = rateLimitMap.get("/search/tweets");
+				
+				int remainingCalls = rateLimitStatus.getRemaining();
+				int secondsUntilReset = rateLimitStatus.getSecondsUntilReset();
+
+				log.info("Remaining Calls: " + remainingCalls + " | Remaining Seconds: " + secondsUntilReset);
+				
+				if (remainingCalls < 2 || secondsUntilReset <= 10 ) {
+					
+					long sleepMillis = (secondsUntilReset + 1 ) * 1000;
+					
+					log.info("Sleeping: " + (sleepMillis / 1000));
+					
+					Thread.sleep(sleepMillis);
+				}
+				
+				QueryResult result = twitter.search(query);
+				
+				List<Status> searchedTweets = result.getTweets(); 
+				
+				if(searchedTweets != null && !searchedTweets.isEmpty()) {
+					
+					tweets.addAll(searchedTweets);
+				
+					for (Status status : tweets) {
+						
+						String text = status.getText();
+						String textWithoutEmojis = StringUtil.removeEmojisAndOtherChars(text);
+						
+						if(log.isDebugEnabled()) {
+							log.debug("id: " + status.getId() + " date: " + status.getCreatedAt() + " msg: " + textWithoutEmojis);
+						}
+						
+						if (status.getId() < lastID) {
+							lastID = status.getId();
+						}
+					}
+					
+					log.info("Fetched " + searchedTweets.size() + " tweets");
+				} else {
+					log.info("no more tweets to read for the hashtag: " + hashtag);
+					break;
+				}
+				
+				query.setMaxId(lastID - 1);
+				
+			} catch (InterruptedException ie) {
+				log.error("Thread Exception... ", ie);
+				break;
+			} catch (TwitterException te) {
+				log.error("Couldn't connect... ", te);
+				break;
 			}
-			query.setMaxId(lastID - 1);
+			
 		}
+		
+		log.info("Gathered " + tweets.size() + " tweets");
 		
 		return tweets;
 	}
-
 }

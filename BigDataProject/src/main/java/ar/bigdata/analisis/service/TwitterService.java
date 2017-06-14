@@ -6,5 +6,5 @@ import twitter4j.Status;
 
 public interface TwitterService {
 
-	List<Status> fetchTweets (String hashtag);
+	List<Status> fetchTweets (Long maxId, String hashtag);
 }

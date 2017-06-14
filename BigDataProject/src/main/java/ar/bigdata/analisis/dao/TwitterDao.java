@@ -1,23 +1,31 @@
 package ar.bigdata.analisis.dao;
 
 import java.util.List;
+import java.util.Set;
 
 import org.bson.Document;
 import org.bson.conversions.Bson;
 
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.UpdateResult;
 
 public interface TwitterDao {
 	
-	void findAll(String dbName, String dbCollectionName);
+	void findAll(String dbCollectionName);
 	
-	void insertTweet(String dbName, String collectionName, Document document);
+	void insertTweet(String collectionName, Document document);
 	
-	void insertManyTweets(String dbName, String collectionName, List<Document> documents);
+	void insertManyTweets(String collectionName, List<Document> documents);
 	
-	MongoCollection<Document> getDBCollection(String dbName, String dbCollectionName);
+	MongoCollection<Document> getDBCollection(String dbCollectionName);
 	
-	UpdateResult updateCollectionTweets(String dbName, String collectionName, Bson bsonFilter, Document document);
+	UpdateResult updateCollectionTweets(String collectionName, Bson bsonFilter, Document document);
+	
+	Set<String> projectionByAttribute(String dbCollectionName, String attribute);
+	
+	List<String> getSingleProjectionByFilterKeyValue(String dbCollectionName, String projectionFieldKey, String filterKey, String filterValue );
+	
+	MongoCursor<Document> projectionByAttributes(String dbCollectionName, String... attributes); 
 
 }
