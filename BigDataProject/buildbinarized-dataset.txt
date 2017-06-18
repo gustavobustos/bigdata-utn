@@ -1,0 +1,234 @@
+2	pasaron de tener un Jumbo a usar un Carrefour Express.
+2	a
+2	de 
+2	Carrefour Express
+2	.
+
+0	Macri es un hijo de puta.
+2	Macri
+2	es 
+2	un
+0	hijo de puta
+2	de
+0	puta
+2	.
+
+1	Macri los niños no comen es un crimen.
+2	Macri
+2	los niños
+1	no comen es un crimen
+2 	es
+1	no
+0	crimen
+2	niños
+2	.
+
+0	juicio politico al hijo de puta.
+1	juicio politico
+1	juicio
+2	politico
+0	hijo de puta
+2	de
+0	puta
+2	.
+
+1	Macri esta conectando coimas con los de arriba.
+2	Macri
+2	esta conectando
+2	conectando
+1	coimas con los de arriba.
+1	coimas
+2	con
+2	arriba
+2	.
+
+1	no entiende? se hace el pelotudo.
+1	no
+2	entiende
+0	se hace el pelotudo.
+0	el pelotudo
+0	pelotudo
+2	el
+2	se hace
+2	hace
+2	.
+
+1	50% cayo el consumo de leche en polvo.
+2	50%
+1	50% cayo 
+1	50% cayo el consumo de leche
+1	50% cayo el consumo de leche en polvo.
+2	leche
+2 	polvo
+2	de
+2	.
+
+2	Macri encima que viaja gratis va hacer negocios para la familia.
+2	Macri encima
+1	Macri encima que viaja gratis
+1	Macri encima que viaja gratis va hacer negocios
+2	para
+2	para la
+2	para la familia
+3	familia
+2	gratis
+2	.
+
+0	hijo de mil puta.
+1	hijo
+2	de
+2	mil
+0	puta
+2	.
+
+2	cristina con calzas en el partenon.
+2	Cristina
+2	con calzas
+2	con
+2	en el partenon
+2	.
+
+0	las mentiras de Macri se convierten en la pesadilla de un pueblo.
+2	Macri 
+2	las 
+1	las mentiras 
+1	las mentiras de Macri 
+1	las mentiras de Macri se convierten 
+0	las mentiras de Macri se convierten en la pesadilla 
+1	mentiras
+1	pesadilla 
+2	de un pueblo
+2	.
+
+4	Navarro te amo.
+2	Navarro 
+2	te 
+4	amo
+2	.
+
+1	pero la vena me revienta Macri gato hdp.
+2	gato
+2	Macri
+1 	Macri gato
+0	hdp
+2	.
+
+1	Macri baja los precios la cdth me estoy cagando de hambre.
+2	Macri
+2	de
+2	.
+
+2	re da  cristina con calzas en el partenon, cadete.
+2	con
+2	, 
+2	.
+
+1	a Mauricio se le van hasta los refugiados!.
+2	!
+2	Mauricio
+2	.
+
+1	el cadete me mata!!!! jajajajajajaj un poco de humor para calmar el odio a Macri gato. ahora hablando en serio, hoy fue el ultimo superclasico que vamos a ver gratis. un garron.
+2	gato
+2	Macri
+1 	Macri gato
+2	!
+2	, 
+2	.
+
+1	Macri la concha de tu madre!!.
+2	Macri
+2	!
+2	de 
+2	.
+
+1	Macri gato matas de hambre al pueblo, te va a volver karma, basura.
+2	gato
+2	Macri
+1 	Macri gato
+2	,
+2	.
+
+1	angustia de esa señora me parte el alma y me hace dar mas asco de las politicas de  Macri gato.
+2	gato
+2	Macri
+1 	Macri gato
+2	de
+2	.
+
+1	Macri gato sos un hijo de puta.
+2	de
+2	sos
+0	hijo de puta
+2	de
+0	puta
+2	un
+2	Macri
+2	gato
+1	Macri gato
+2	.
+
+3	Macri es re buena onda.
+2	Macri
+2 	es
+4	re buena onda.
+4	re buena
+3	buena
+2 	onda
+2	.
+
+4 	Macri es el mejor presidente de los ultimos 10 años.
+2	Macri
+3 	Macri es el mejor
+3	es el mejor	
+4 	Macri es el mejor presidente	
+4 	Macri es el mejor presidente de los ultimos 	
+2 	presidente de los ultimos 10 años.	
+2 	presidente 
+2	de los ultimos
+2 	es
+2	ultimos
+3	mejor
+2	10 años.
+
+4	Macri la tiene re clara.
+2	Macri
+3	la tiene re clara.
+2	la tiene
+3	re clara
+3	clara
+2	.
+
+3	Macri es buena persona.
+2	Macri
+3	es buena
+2	persona
+3	buena
+3	es buena persona
+2 	es
+2	.
+
+1	Macri es mala persona.
+1	mala
+2 	es
+2	Macri
+2	persona
+1	mala persona
+2	.
+
+1	Macri es persona no grata.
+2	Macri
+1	no grata.
+1	no
+2	grata.
+2 	es
+2	persona
+2	.
+
+1	Cristina no te banco.
+1	no te banco
+3	te banco
+2	te
+1	no
+2	Cristina
+2	.
