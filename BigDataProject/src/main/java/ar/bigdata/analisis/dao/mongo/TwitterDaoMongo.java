@@ -3,6 +3,7 @@ package ar.bigdata.analisis.dao.mongo;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.bson.Document;
@@ -18,6 +19,7 @@ import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Projections;
+import com.mongodb.client.model.UpdateOptions;
 import com.mongodb.client.result.UpdateResult;
 
 public class TwitterDaoMongo implements TwitterDao {
@@ -58,7 +60,7 @@ public class TwitterDaoMongo implements TwitterDao {
 	public Set<String> projectionByAttribute(String dbCollectionName, String attribute) {
 	
 		Set<String> set = new HashSet<String>();
-		MongoCursor<Document> cursor = projectionByAttributes(dbCollectionName, attribute);
+		MongoCursor<Document> cursor = projectionByAttributes(dbCollectionName, null,attribute);
 		
 		try {
 			while (cursor.hasNext()) {
@@ -98,13 +100,18 @@ public class TwitterDaoMongo implements TwitterDao {
 		return list;
 	}
 	
-	public MongoCursor<Document> projectionByAttributes(String dbCollectionName, String... attributes) {
+	public MongoCursor<Document> projectionByAttributes(String dbCollectionName, Map<String, Object> filter, String... attributes) {
 		
 		MongoCollection<Document> collection = getDBCollection(dbCollectionName);
 		
-		MongoCursor<Document> cursor = collection.find().projection(Projections.include(attributes)).iterator();
-		 
-		  
+		MongoCursor<Document> cursor = null;
+		
+		if (filter != null) {
+			Bson bsonFilter = new Document(filter);
+			cursor = collection.find(bsonFilter).projection(Projections.include(attributes)).iterator();
+		} else {
+			cursor = collection.find().projection(Projections.include(attributes)).iterator();
+		}
 		
 		return cursor;
 	}
@@ -136,6 +143,12 @@ public class TwitterDaoMongo implements TwitterDao {
 	public UpdateResult updateCollectionTweets(String collectionName, Bson bsonFilter, Document document) {
 		MongoCollection<Document> collection = getDBCollection(collectionName);
 		UpdateResult result = collection.updateOne(bsonFilter, document);
+		return result;
+	}
+	
+	public UpdateResult updateCollectionTweets(String collectionName, Bson bsonFilter, Document document, UpdateOptions updateOptions) {
+		MongoCollection<Document> collection = getDBCollection(collectionName);
+		UpdateResult result = collection.updateOne(bsonFilter, document, updateOptions);
 		return result;
 	}
 
